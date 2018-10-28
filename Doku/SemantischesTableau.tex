@@ -1,0 +1,182 @@
+\section{Semantisches Tableau}
+%
+%Die Methode der semantischen Tableaus ist eine effiziente Entscheidungsprozedur für Erfüllbarkeit (und Dualität) in der Aussagenlogik.
+% 
+%Das Prinzip hinter semantischen Tableaus ist sehr einfach: Sucht man nach einem Modell, das die Interpretation erfüllt, indem man die Formel in mehrere Mengen von Atomen und Negationen zerlegt. Eine Menge von Atomen und Negationen von Atomen ist erfüllbar, wenn die Menge kein Atom $p$ und seine Negation $\neg p$ enthält. Die Formel ist erfüllbar, wenn eine dieser Mengen erfüllbar ist. Die Formel ist unerfüllbar, wenn keine Mengen erfüllbar ist d.h seine Negation eine Tautologie. 
+
+Das Prinzip hinter semantischen Tableaus ist sehr einfach: Man sucht nach einem Modell, das die Interpretation erfüllt, indem man die Formel in mehreren Mengen von Literalen zerlegt. Eine Menge von Literalen ist erfüllbar, wenn die Menge kein komplementäres Literalpaar enthält. Die Formel ist erfüllbar, wenn eine dieser Mengen erfüllbar ist. Die Formel ist unerfüllbar, wenn keine Mengen erfüllbar sind, d.h seine Negation eine Tautologie ist.
+
+\begin{defi} \label{Definition 2.57} Literal und komplementäres Literalpaar\cite{Ben-Ari}\end{defi} 
+Ein Literal ist ein Atom oder die Negation eines Atoms. Ein Atom ist ein positives Literal und die Negation eines Atoms ist ein negatives Literal. Für jedes Atom $p$ ist $\{p, \neg p\}$ ein komplementäres Literalpaar.
+
+Für jede Formel $A$ ist $\{A, \neg A\}$ ein komplementäres Formelpaar. $A$ ist das Komplement von $\neg A$ und $\neg A$ ist das Komplement von $A$.
+
+\begin{ex} \label{Beispiel 2.58} \end{ex} In der Menge der Literale $ \{ \neg p, q, r, \neg r \} $ sind $q$ und $r$ positive Literale, während $\neg p$ und $\neg r$ negative Literale sind. Die Menge enthält das komplementäre Literalpaar $ \{ r, \neg r \}$.
+ 
+%\begin{bem} \label{Satz 2.60 } Eine Menge von Literalen ist genau dann erfüllbar, wenn sie kein komplementäres Literalpaar enthält.\end{bem}
+ 
+ 
+%\begin{sa} \label{Satz 2.60 } \end{sa}Eine Menge von Literalen ist genau dann erfüllbar, wenn sie vorhanden ist enthält kein komplementäres Literalpaar.
+
+In der Methode der semantischen Tableaus bezeichnen Mengen von Formeln Knoten eines Baumes, wobei jeder Pfad im Baum die Formeln darstellen, die in einer möglichen Interpretation erfüllt sein müssen.
+
+\begin{defi} \label{Def.Tableau} Konstruktion von semantischen Tableaus\end{defi} 
+\begin{itemize}
+\item Ein aussagenlogisches Tableau ist ein markierter Baum. Jeder Knoten ist mit einer Menge von Formeln markiert.
+\item Die Eingabeformel ist an der Wurzel. 
+%\footnote{\url{https://www.ki.informatik.uni-frankfurt.de/lehre/SS2008/AD/folien/ded-fol3.pdf}}
+\item Jeder Knoten hat einen oder zwei untergeordnete Knoten, abhängig davon, wie eine Formel, die den Knoten kennzeichnet, zerlegt wird. Dadurch, dass ein Knoten mit $\alpha$-Formel gekennzeichnet wird, hat er nur einen untergeordneten Knoten, ansonsten hat er zwei Knoten. Die Klassifizierung von $\alpha$- und $\beta$-Formeln wird in der Tabelle \ref{Abb. 2.8} definiert.
+\item Die Blätter sind durch eine Menge von Literalen markiert.
+\item Ein Blatt, das durch eine Menge von Literalen markiert ist, die ein komplementäres Paar von Literalen enthält, ist mit geschlossen ($\times$) markiert
+\item Ein Blatt, das durch eine Menge von Literalen markiert ist, die kein komplementäres Paar von Literalen enthält, ist mit offen ($\odot$) markiert. 
+\item Ein Tableau ist geschlossen, wenn alle seine Blätter als geschlossen markiert sind. Ansonsten (wenn ein Blatt als offen markiert ist), ist es offen.\cite{Ben-Ari}
+\end{itemize}
+
+
+Abbildung \ref{Abb. 2.7} zeigt semantische Tableaus für die Formeln:
+
+$A = p\wedge (\neg q \vee \neg p)$ und $B = (p \vee q) \wedge  (\neg p \wedge  \neg q)$.
+
+\begin {figure}[h]
+\vspace{1cm}
+\begin{center}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\definecolor{uuuuuu}{rgb}{0,0,0}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-13.0,-8.0) rectangle (-2.0,-0.5);
+\draw [->,>=stealth,line width=1pt] (-11,-2) -- (-11,-3);
+\draw [->,>=stealth,line width=1pt] (-11.5,-4) -- (-12.5,-4.5);
+\draw [->,>=stealth,line width=1pt] (-10.5,-4) -- (-9.5,-4.5);
+\draw [->,>=stealth,line width=1pt] (-4.5,-2) -- (-4.5,-3);
+\draw [->,>=stealth,line width=1pt] (-4.5,-4) -- (-4.5,-5);
+\draw [->,>=stealth,line width=1pt] (-5,-6) -- (-6,-6.5);
+\draw [->,>=stealth,line width=1pt] (-4,-6) -- (-3,-6.5);
+\begin{small}
+\draw[color=uuuuuu] (-11,-0.8) node {$\textbf{A}$};
+\draw[color=uuuuuu] (-11,-1.5) node {$p \wedge (\neg q \vee \neg p)$};
+\draw[color=uuuuuu] (-11,-3.5) node {$p, \neg q \vee \neg p$};
+\draw[color=uuuuuu] (-12.5,-5) node {$p,\neg q$};
+\draw[color=uuuuuu] (-12.5,-5.5) node {$\odot$};
+\draw[color=uuuuuu] (-9.5,-5) node {$p, \neg p$};
+\draw[color=uuuuuu] (-9.5,-5.5) node {$\times$};
+\draw[color=uuuuuu] (-4.5,-0.8) node {$\textbf{B}$};
+\draw[color=uuuuuu] (-4.5,-1.5) node {$(p\vee q)\wedge(\neg p \wedge \neg q)$};
+\draw[color=uuuuuu] (-4.5,-3.5) node {$p\vee q, \neg p \wedge \neg q$};
+\draw[color=uuuuuu] (-4.5,-5.5) node {$p\vee q, \neg p, \neg q$};
+\draw[color=uuuuuu] (-6,-7.0) node {$p,\neg p, \neg q$};
+\draw[color=uuuuuu] (-6,-7.5) node {$\times$};
+\draw[color=uuuuuu](-3,-7.0) node {$q,\neg p,\neg q$};
+\draw[color=uuuuuu] (-3,-7.5) node {$\times$};
+\end{small}
+\end{tikzpicture}
+\end{center}
+\caption[Beispiel Konstruktion für semantische Tableaus]{Semantische Tableaus für $A = p\wedge (\neg q \vee \neg p)$ und $B = (p \vee q) \wedge  (\neg p \wedge  \neg q)$}
+\label{Abb. 2.7}
+\vspace{1cm}
+\end{figure}
+
+Die Tableau-Konstruktion ist nicht eindeutig. Abbildung \ref{Abb. 2.6} ist ein weiteres Tableau für die Formel $B$. Die Unterschiede zwischen dem Tableau in der Abbildung \ref{Abb. 2.7} und in der Abbildung \ref{Abb. 2.6} sind, dass in dem ersten Tableau die Belegung für $\neg p \wedge \neg q$ gesucht werden, bevor die für $p \vee q$  gesucht wird. Das erste Tableau enthält weniger Knoten, was zeigt, dass \textit{Konjunktionen vor Disjunktionen} vorzuziehen sind.
+
+\begin {figure}[!h]
+\begin{center}
+\vspace{1cm}
+\definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\clip(-13.5,-8.0) rectangle (-8.0,-1.3);
+\draw [->,>=stealth,line width=1pt] (-11,-2) -- (-11,-3);
+\draw [->,>=stealth,line width=1pt] (-11.5,-4) -- (-12.5,-4.5);
+\draw [->,>=stealth,line width=1pt] (-10.5,-4) -- (-9.5,-4.5);
+\draw [->,>=stealth,line width=1pt] (-12.5,-5.5) -- (-12.5,-6.5);
+\draw [->,>=stealth,line width=1pt] (-9.5,-5.5) -- (-9.5,-6.5);
+\begin{small}
+\draw[color=black]  (-11,-1.5) node {$(p \vee q) \wedge(\neg p \wedge \neg q)$};
+\draw[color=black]  (-11,-3.5) node {$p \vee q, \neg p \wedge \neg q$};
+\draw[color=black]  (-12.5,-5) node {$p,\neg p \wedge \neg q$};
+\draw[color=black]  (-9.5,-5) node {$q, \neg p \wedge \neg q$};
+\draw[color=black] (-12.5,-7) node {$p, \neg p, \neg q$};
+\draw[color=black] (-9.5,-7) node {$q, \neg p \wedge \neg q$};
+\draw[color=black] (-12.5,-7.5) node {$\times$};
+\draw[color=black] (-9.5,-7.5) node {$\times$};
+\end{small}
+\end{tikzpicture}
+\end{center}
+\caption[Ein weiteres Tableau]{Ein weiteres Tableau für $B$}
+\label{Abb. 2.6}
+
+\end{figure}
+
+Eine übersichtliche Darstellung der Regeln für die Erstellung eines semantischen Tableaus kann gegeben werden, wenn \textit{Formeln nach ihrem Hauptoperator klassifiziert} werden (Tabelle \ref{Abb. 2.8}). Wenn \textit{die Formel eine Negation ist, berücksichtigt die Klassifizierung sowohl die Negation als auch den Hauptoperator}. \textit{$\alpha$-Formeln sind konjunktiv} und nur erfüllbar, wenn beide Teilformeln $\alpha_1$ und $\alpha_2$ erfüllt sind, während \textit{$\beta$-Formeln disjunktiv sind} und auch dann erfüllt sind, wenn nur eine der Teilformeln $\beta_1$ oder $\beta_2$ erfüllbar ist.
+
+\begin{table}[h]
+\footnotesize
+	\begin{center}
+			\begin{tabular}{lcccclccc}
+			\cline{1-4}
+			\cline{6-9}
+			\textbf{Nr.}&\textbf{$\alpha$}&\textbf{$\alpha_1$}&\textbf{$\alpha_2$}&   &\textbf{Nr.}&\textbf{$\beta$}&\textbf{$\beta_1$}&\textbf{$\beta_2$}  \\
+			\cline{1-4} 
+			\cline{6-9}
+			
+			\textbf{a1}&$\neg \neg A_1$&$A_1$&  &   &&&&\\
+			
+			\textbf{a2}&$A_1 \wedge A_2$&$A_1$&$A_2$&   &\textbf{b1}&$\neg (B_1 \wedge B_2)$&$\neg B_1$&$\neg B_2$\\
+			\textbf{a3}&$\neg (A_1 \vee A_2)$&$\neg A_1$&$\neg A_2$&   &\textbf{b2}&$B_1 \vee B_2 $&$B_1$&$B_2$\\
+			
+			\textbf{a4}&$\neg (A_1 \rightarrow A_2)$& $A_1$ & $\neg A_2$&   &\textbf{b3}&$(B_1 \rightarrow B_2)$&$\neg B_1$&$B_2$  \\
+			
+			\textbf{a5}&$\neg(A_1 \uparrow A_2)$& $A_1$&$A_2$&   &\textbf{b4}&$B_1 \uparrow B_2$&$\neg B_1$&$\neg B_2$  \\
+			
+			\textbf{a6}&$A_1 \downarrow A_2$&$\neg A_1$ & $\neg A_2$&   &\textbf{b5}&$\neg (B_1 \downarrow B_2)$&$B_1$&$B_2$  \\
+			
+			\textbf{a7}&$A_1 \leftrightarrow A_2$& $A_1 \rightarrow A_2$&$A_2 \rightarrow A_1$&   &\textbf{b6}&$\neg (B_1 \leftrightarrow B_2)$&$\neg (B_1 \rightarrow B_2)$&$\neg (B_2 \rightarrow B_1)$\\
+			
+			\textbf{a8}&$\neg (A_1 \oplus A_2)$&$A_1 \rightarrow A_2$&$A_2 \rightarrow A_1$&   &\textbf{b7}&$B_1 \oplus B_2$&$\neg (B_1 \rightarrow B_2)$&$\neg (B_2 \rightarrow B_1)$\\
+			\cline{1-4} 
+			\cline{6-9}			
+			\end{tabular}
+	\end{center}
+	\caption[Klassifizierung von $\alpha$- und $\beta$-Formeln]{Klassifizierung von $\alpha$- und $\beta$-Formeln \cite{Ben-Ari}}
+	\label{Abb. 2.8}
+\end{table}
+		
+\vspace{0.5cm}\begin{ex} \label{Beispiel 2.63} \end{ex} Die Formel $p \wedge q$ wird als $\alpha$-Formel klassifiziert, weil sie genau dann gilt, wenn sowohl $p$ als auch $q$ wahr sind. Die Formel $\neg(p\wedge q)$ wird als $\beta$-Formel klassifiziert.
+Es ist logisch äquivalent zu $\neg p \vee \neg q$ und ist genau dann wahr, wenn entweder $\neg p$ wahr oder $\neg q$ wahr ist.
+
+Der Algorithmus der Tableau-Konstruktion kann wie folgt formuliert werden:
+\begin{al}Konstruktion eines semantischen Tableaus \cite{Schaefer}\label{Algorithmus 2.64} \end{al} 
+\textit{Eingabe:} Aussagenlogische Formel $A$.\\
+\textit{Ausgabe:} Semantisches Tableau mit markierten Blättern
+\begin{enumerate}[wide=0em, leftmargin=*, label=\arabic*, itemsep=0pt, parsep=0pt, font=\scriptsize]
+\item \textbf{function} Tableau($A$)
+\item \tabto{0.cm} Konstruiere einen Baum mit Formel $A$ als Wurzel.
+\item \tabto{0.5cm} \textbf{while} es gibt unmarkierte Blätter \textbf{do} 
+\item \tabto{0.5cm} Wähle unmarkiertes Blatt $l$
+\item \tabto{1cm}\textbf{if}  Blatt $l$ enthält nur Literale then
+\item \tabto{1.5cm} \textbf{if} Blatt $l$ enthält komplementäre Literale oder Konstante \textit{false} \textbf{then}
+\item \tabto{2cm} Markiere Blatt $l$ als geschlossen mit $\times$ 
+\item \tabto{1.5cm} \textbf{else} 
+\item \tabto{2cm} Markiere Blatt $l$ als offen mit $\odot$
+\item \tabto{1.5cm} \textbf{end if} 
+\item \tabto{1cm} \textbf{else if}  Blatt $l$ enthält $\alpha$-Formel then
+\item \tabto{1.5cm} Wähle $\alpha$-Formel $\alpha$
+\item \label{TableauAl_13} \tabto{1.5cm} Ermittle Formeln $\alpha_1$ und $\alpha_2$ nach Tabelle \ref{Abb. 2.8} 
+\item \tabto{1.5cm} Erzeuge Kind $l'$ von $l$
+\item \tabto{1.5cm} Beschrifte $l'$ mit Formeln aus $l$
+\item \label{TableauAl_16}\tabto{1.5cm} Ersetze dabei $\alpha$ in $l'$ durch Formeln $\alpha_1$  und $\alpha_2$
+\item \tabto{1cm} \textbf{else} 
+\item \tabto{1.5cm} Wähle  $\beta$-Formel $\beta$
+\item \label{TableauAl_19} \tabto{1.5cm} Ermittle Formeln $\beta_1$ und $\beta_2$ nach Tabelle \ref{Abb. 2.8}
+\item \tabto{1.5cm} Erzeuge zwei Kinder $l_1$ und $l_2$ von $l$
+\item \tabto{1.5cm} Beschrifte $l_1$ mit Formeln aus $l$
+\item \tabto{1.5cm} Ersetze dabei $\beta$ in $l_1$ durch $\beta_1$
+\item \tabto{1.5cm} Beschrifte $l_2$ mit Formeln aus $l$
+\item \label{TableauAl_24}\tabto{1.5cm} Ersetze dabei $\beta$ in $l_2$ durch $\beta_2$
+\item \tabto{1cm} \textbf{end if} 
+\item \tabto{0.5cm} \textbf{end while}
+\item \tabto{0.5cm} \textbf{return}  Semantisches Tableau
+\item \textbf{end function}
+\end{enumerate}
+
+
+
+%\begin{defi} \label{Definition 2.65} \end{defi} Ein Tableau, dessen Konstruktion beendet wurde, ist ein abgeschlossenes Tableau. Ein abgeschlossenes Tableau wird geschlossen, wenn alle seine Blätter als geschlossen markiert sind. Ansonsten (wenn ein Blatt als offen markiert ist), ist es offen.

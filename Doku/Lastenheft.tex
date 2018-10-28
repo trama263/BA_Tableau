@@ -1,0 +1,77 @@
+\section{Problemanalyse: Lastenheft}
+\begin{enumerate}
+\item \textbf{Zielbestimmung}
+%Es gibt viele Möglichkeiten, wie zum Beispiel das Wahrheitstafelverfahren oder die Äquivalenzumformung, um zu prüfen, ob eine Formel der Aussagenlogik allgemeingültig ist. Die Wahrheitstabellen sind unpraktikabel, da sie exponentiell wachsen. Die Äquivalenzumformung liefert auch kein Verfahren, das sagt, welche Regel anzuwenden ist. Es gibt auch ein alternatives Verfahren, das die Erfüllbarkeit einer aussagenlogischen Formel überprüft. Ebenso gibt es das sogenannte Tableau-Verfahren. 
+Es gibt ein Verfahren, das die Erfüllbarkeit einer aussagenlogischen Formel überprüft, die Tableau-Verfahren genannt wird.
+Dazu werden systematische Regeln angewendet und Formeln umgeschrieben. Dieses Verfahren kann auch als Programm implementiert und genutzt werden. Daher soll, um das Lehren und Lernen der Informatikmodule besser zu unterstützen, eine Software entwickelt werden, die vom Nutzer eine aussagenlogische Formel annimmt und prüft, ob diese Formel erfüllbar oder allgemeingültig ist. Das Ergebnis soll mittels eines semantischen Tableaus erstellt und angezeigt werden. Außerdem soll die Anwendung eine ``Schritt für Schritt Lösung''- Funktion, wonach Studierende Schritt für Schritt den Aufbau eines Tableaus folgen können, bieten. Die Software soll als Web-Applikation eingeführt werden.
+
+\item \textbf{Produkteinsatz}
+
+\hypertarget{/LE10/}{/LE10/} Verwendung im Bereich Lehren und Lernen der Informatikmodule.
+
+\hypertarget{/LE20/}{/LE20/} Die Nutzer sollen die Funktionalität über eine Webanwendung nutzen können.	
+
+\hypertarget{/LE30/}{/LE30/} Die Software soll ohne Server und Datenbank funktionieren können.
+
+\hypertarget{/LE40/}{/LE40/} Zielgruppe der Software sind Studierende und die Dozierende.
+
+\item \textbf{Produktfunktionen}
+
+\hypertarget{/LF10/}{/LF10/} Eingabeformel überprüfen und anzeigen
+\begin{itemize} 
+\item Die Software prüft, ob die Eingabeformel ein wohlgeformter Ausdruck der Aussagenlogik ist, sonst Wiederholung der Eingabe.
+\item Die Eingabeformel-Darstellung wird als Baumstruktur erstellt und in dem GUI angezeigt .
+\end{itemize}
+
+
+\hypertarget{/LF20/}{/LF20/} Allgemeingültigkeit überprüfen und Tableau darstellen
+\begin{itemize}
+\item Die Software erstellt die Negation von der Eingabeformel. 
+\item Die Software  mittels Tableau-Verfahren prüft, ob diese Negation erfüllbar ist (/LF30/).
+\item Wenn diese Negation nicht erfüllbar ist, ist die Eingabeformel allgemeingültig.
+\item Wenn diese Negation erfüllbar ist, ist die Eingabeformel nicht allgemeingültig.
+\item Die Tableau-Darstellung wird als Baumstruktur erstellt und in dem GUI angezeigt.
+\end{itemize}
+
+\hypertarget{/LF30/}{/LF30/}  Erfüllbarkeit überprüfen und Tableau darstellen
+\begin{itemize} 
+\item Die Software mittels Tableau-Verfahren prüft, ob Eingabeformel erfüllbar ist
+\item Die Tableau-Darstellung wird als Baumstruktur erstellt und in dem GUI angezeigt.
+\end{itemize}
+
+
+\hypertarget{/LF40/}{/LF40/}  Schritt für Schritt Lösung anzeigen
+\begin{itemize}
+\item Ein Pop-up Fenster von der Schritt für Schritt Lösung wird geöffnet.
+\item Durch Anklicken eines Buttons kann das Tableau Stück für Stück dargestellt werden und ein Lösungshinweis für jeden Schritt angezeigt werden.
+\end{itemize}
+
+\item \textbf{Produktdaten}
+\begin{itemize}
+\item keine Produktdaten
+\end{itemize}
+
+\item \textbf{Produktleistungen}
+
+/LL10/ Die Funktionen /LF20/ und /LF30/ darf nicht länger als 5 Sekunden Reaktionszeit benötigen
+
+/LL20/ Bei fehlerhaften Eingaben erhält der Nutzer eine Fehlermeldung
+
+/LL30/ Bei fehlerhaften Eingaben muss der Nutzer die Möglichkeit haben, eine Korrektur der Eingaben vorzunehmen.
+
+                                                                                                                                                                                                                                                    
+\item \textbf{Qualitätsanforderungen}
+
+\hypertarget{/LQ10/}{/LQ10/} Vollständigkeit: Alle implementierten Funktionen werden benutzt. Alle referenzierten Funktionen werden implementiert.
+
+\item \textbf{Ergänzungen}
+\begin{itemize}
+\item  Die Software soll zunächst unter \hypertarget{Chrome}{Chrome} laufen, langfristig aber auch unter Firefox und weiteren Browsern. 
+\end{itemize}
+
+%\item \textbf{Glossar}
+%\begin{itemize}
+%\item Reaktionszeit:  Zeitdauer bis eine Funktion ausgeführt ist.
+%\end{itemize}
+\end{enumerate} 
+

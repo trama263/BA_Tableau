@@ -1,0 +1,118 @@
+\section{Antlr4}\label{sec:Antlr4}
+Um die syntaktische Richtigkeit der Benutzereingabeformel zu prüfen und die Formel in einem Baum-Struktur darstellen zu können (\hyperlink{/LF10/}{/LF10/}), wird ANTLR verwendet.
+
+ANTLR ist ein leistungsfähiger Parser-Generator, mit dem man strukturierte Text- oder Binärdateien lesen, verarbeiten, ausführen oder übersetzen kann. Es wird häufig in der Wissenschaft und der Industrie verwendet, um alle möglichen Sprachen, Werkzeuge und Frameworks zu erstellen. ANTLR ist kostenlos und als ``Open Source'' erhältlich.
+
+Die Twitter-Suche verwendet ANTLR für die Abfrageanalyse mit mehr als 2 Milliarden Abfragen pro Tag. Die Sprachen für Hive und Pig und die Data Warehouse- und Analysesysteme für Hadoop verwenden ANTLR. Lex Machina verwendet ANTLR zur Informationsextraktion aus Rechtstexten. Oracle verwendet ANTLR innerhalb der SQL Developer IDE und seiner Migrationstools. Die NetBeans-IDE analysiert C++ mit ANTLR. Die HQL-Sprache im objektrelationalen Hibernate-Mapping-Framework wird mit ANTLR erstellt.\cite{Parr}
+
+Aus einer formellen Sprachbeschreibung, die als Grammatik bezeichnet wird, generiert ANTLR einen Parser für diese Sprache. Ein Parser liest den vom Lexer in einzelne Token zerteilten Strom ein, prüft diese auf syntaktische Richtigkeit und erstellt daraus Symbol-Gruppen mit hierarchischer Struktur. Die Struktur ist oft ein Baum und wird dann abstrakter Syntaxbaum (AST) oder Parse-tree genannt. ANTLR generiert außerdem automatisch Tree-Walker, mit denen Sie die Knoten dieser Bäume aufrufen können, um anwendungsspezifischen Code auszuführen.
+
+%Der wichtigste Unterschied zwischen ANTLR und anderen Parser-Generatoren wie z.B YACC / Bison ist der Typ der Grammatiken, die diese Tools verarbeiten können. YACC / Bison behandeln LALR-Grammatiken, ANTLR behandelt LL-Grammatiken. YACC / Bison erzeugt tabellengesteuerte Parser, was bedeutet, dass die ``Verarbeitungslogik'' in den Daten des Parserprogramms enthalten ist, nicht so sehr in dem Parsercode. ANTLR erzeugt rekursive Descent-Parser, was bedeutet, dass die ``Verarbeitungslogik'' im Parser-Code enthalten ist, da jede Produktionsregel der Grammatik durch eine Funktion im Parser-Code repräsentiert wird. Der Vorteil ist, dass es einfacher ist zu verstehen, was der Parser tut, indem er seinen Code liest. Außerdem sind rekursive Descent-Parser typischerweise schneller als tabellengesteuerte.\footnote{\url{https://stackoverflow.com/questions/212900/advantages-of-antlr-versus-say-lex-yacc-bison}}. 
+
+Um einen AST zu bekommen, muss man:
+\begin{itemize}
+\item Eine Lexer- und Parsergrammatik definieren.
+\item ANTLR aufrufen: Es generiert einen Lexer und einen Parser in einer Zielsprache (z. B. Java, Python, JavaScript)
+\item Den generierten Lexer und Parser verwenden: Rufe Lexer und Parser, dann übergebe den Code. Lexer und Parser werden den Code erkennen und einen AST zurückgeben
+\end{itemize}
+
+\subsection{Hauptteilen von ANTLR}
+ANTLR besteht eigentlich aus zwei Hauptteilen: dem Werkzeug (Antlr-Tool), mit dem der Lexer und Parser erzeugt wird und der Laufzeit, die für die Ausführung benötigt wird. Das Antlr-Tool ist immer gleich, unabhängig davon, auf welche Sprache abgezielt wird. Es ist ein Java-Programm, das nur für Entwickler benötigt wird. Die Laufzeit (Runtime) ist für jede Sprache unterschiedlich und muss sowohl dem Entwickler als auch dem Benutzer zur Verfügung stehen. Die Runtime kann auf der Seite \url{http://www.antlr.org/download/} heruntergeladen werden. 
+
+Die einzige Voraussetzung für das Antlr-Tool ist, dass mindestens Java 1.7 installiert werden muss. Um dieses Antlr-Tool zu installieren, muss die neueste Version von der offiziellen Website, die im Moment \url{http://www.antlr.org/download/antlr-4.7.1-complete.jar} ist, heruntergeladen werden. Die Ausführliche Anleitung zur Installation wird auf der Seite \url{https://github.com/antlr/antlr4/blob/master/doc/getting-started.md} beschrieben.
+
+Wenn man ANTLR verwendet, beginnt man mit dem Schreiben einer Grammatik, einer Datei mit der Erweiterung \textit{.g4}. Diese Grammatik erhält die Regeln der Sprache, die analysiert wird. Dann verwendet man das Antlr-Tool, um die Dateien, die man in seinem Projekt wirklich braucht, zu erstellen,  wie zB. \textit{antlr4 <Optionen> <Grammatik-Datei-Name.g4>}
+
+Es gibt einige wichtige Optionen, die man bei der Ausführung von Antlr-Tool angeben kann. Man kann die Zielsprache angeben, um einen Parser in Python oder JavaScript oder einem anderen Ziel als Java (das ist das Standardziel) zu erstellen.
+ANTLR bietet zwei Tree-Walking-Mechanismen in seiner Laufzeitbibliothek: eine Parser-Tree-Listener-Schnittstelle und eine Parser-Tree-Visitor-Schnittstelle \cite{Parr}. Standardmäßig wird nur der Listener generiert. Um den Visitor zu erstellen, kann man die Befehlszeilenoption \textit{-visitor} verwenden. Eine vollständige Liste der Optionen für das Antlr-Tool kann man auf der Seite \url{https://github.com/antlr/antlr4/blob/master/doc/tool-options.md} finden.
+
+
+\subsection{ANTLR JavaScript target}
+Während der Konfiguration von ANTLR in JavaScript gibt es einige Besonderheiten wie folgt:
+
+\begin{itemize}
+\item 	Grammatiken im gleichen Ordner wie die JavaScript-Dateien ablegen.
+\item	Die Datei mit der Grammatik muss den gleichen Namen wie die Grammatik haben, die am Anfang der Datei angegeben werden muss.
+\item	Der entsprechende JavaScript-Parser kann einfach die richtige Option mit dem Antlr-Tool erstellen.
+
+\textit{antlr4 -Dlanguage = JavaScript Grammatik-Datei-Name.g4}
+
+Damit die Manipulationen erleichtert werden, wird in dieser Arbeit eine \textit{.BAT-Datei} \textit{antlr4.bat} verwendet. Die Datei erhält die Kommando
+\begin{lstlisting}[language=HTML,basicstyle=\scriptsize]
+	antlr4 -Dlanguage=JavaScript -listener -visitor -encoding UTF-8 FormulaGrammar.g4
+\end{lstlisting}
+um die Parser, Lexer sowie Listener und Visitor für die \textit{FormulaGrammar.g4} in JavaScript zu generieren.
+
+\item	ANTLR kann sowohl mit \textit{node.js} als auch im Browser verwendet werden. Für den Browser muss man webpack oder \textit{require.js} verwenden um zu vermeiden, dass dutzende Dateien manuell importiert werden müssen.
+
+Im Rahmen diese Bachelorarbeit wird \textit{require.js} gewählt. Das Skript wird von Torben Haase zur Verfügung gestellt und ist nicht Bestandteil der ANTLR JavaScript-Runtime. Dieses Skript kann auf der Seite \url{https://github.com/antlr/antlr4/blob/master/runtime/JavaScript/src/lib/require.js\#L65} heruntergeladen werden.
+Angenommen hat man im Stammverzeichnis seiner Website sowohl das Verzeichnis ``antlr4'' als auch ein ``lib'' -Verzeichnis mit ``require.js'', muss man die in denn HTML-Header wie folgt einfügen:
+
+\begin{lstlisting}[language=HTML,basicstyle=\scriptsize]
+	<script src='lib/require.js'>
+	<script>
+		var antlr4 = require('antlr4/index');
+	</script>
+\end{lstlisting}
+
+\item Die generierten  Lexer und Parser in JavaScript kann wie folgt ausgeführt werden:
+
+\begin{lstlisting}[language=JavaScript,basicstyle=\scriptsize ]
+	var antlr4 = require('antlr4');
+	var MyGrammarLexer = require('./MyGrammarLexer').MyGrammarLexer;
+	var MyGrammarParser = require('./MyGrammarParser').MyGrammarParser;
+	var MyGrammarListener = require('./MyGrammarListener').MyGrammarListener;
+
+	var input = "your text to parse here"
+	var chars = new antlr4.InputStream(input);
+	var lexer = new MyGrammarLexer(chars);
+	var tokens  = new antlr4.CommonTokenStream(lexer);
+	var parser = new MyGrammarParser(tokens);
+	parser.buildParseTrees = true;
+	var tree = parser.StartRule();
+\end{lstlisting}
+
+Dazu sind \textit{MyGrammarLexer.js, MyGrammarParser.js, MyGrammarListener.js} und \textit{MyGrammarVisitor.js} die generierten Dateien für die Grammatik  ``\textit{MyGrammar}'', die eine Regel ``\textit{StartRule}'' enthält.
+
+\item	Wenn man den Syntaxbaum mit einem benutzerdefinierten Listener besuchen möchte, kann man einen benutzerdefinierten Listener wie folgt erstellen:
+
+\begin{lstlisting}[language=JavaScript,basicstyle=\scriptsize]
+	MyGrammarListener = function(ParseTreeListener) {
+		// some code here
+	}
+	// some code here
+	MyGrammarListener.prototype.enterKey = function(ctx) {};
+	MyGrammarListener.prototype.exitKey = function(ctx) {};
+	MyGrammarListener.prototype.enterValue = function(ctx) {};
+	MyGrammarListener.prototype.exitValue = function(ctx) {};
+\end{lstlisting}
+
+Um benutzerdefiniertes Verhalten bereitzustellen, kann man eine Klasse wie folgt erstellen:
+
+\begin{lstlisting}[language=JavaScript,basicstyle=\scriptsize]
+	var KeyPrinter = function() {
+		MyGrammarListener.call(this); // inherit default listener
+		return this;
+	};
+
+	// continue inheriting default listener
+	KeyPrinter.prototype = Object.create(MyGrammarListener.prototype);
+	KeyPrinter.prototype.constructor = KeyPrinter;
+
+	// override default listener behavior
+	KeyPrinter.prototype.exitKey = function(ctx) {
+	console.log("Oh, a key!");
+	};
+\end{lstlisting}
+
+Um diesen Listener auszuführen, fügt man dem obigen Code einfach die folgenden Zeilen hinzu:
+
+\begin{lstlisting}[language=JavaScript,basicstyle=\scriptsize]
+	...
+	tree = parser.StartRule() // only repeated here for reference
+	var printer = new KeyPrinter();
+	antlr4.tree.ParseTreeWalker.DEFAULT.walk(printer, tree);
+\end{lstlisting}
+
+\end{itemize}
+Die Ausführliche Anleitung zur JavaScript Konfiguration kann man auf der Seite \url{https://github.com/antlr/antlr4/blob/master/doc/javascript-target.md} lesen. 

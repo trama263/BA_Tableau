@@ -1,0 +1,28 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc} % deutsche Sprache Umlaute (an die Einstellungen des jeweiligen Editors anpassen!)
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel} % deutsche Sprache Silbentrennung
+\usepackage{caption}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[pagewise,modulo]{lineno}
+\usepackage[xindy]{glossaries} 
+\usepackage[german]{varioref}
+
+\makeglossaries
+
+\begin{document}
+\nolinenumbers
+
+\section{Glossar}
+
+\renewcommand*{\glspostdescription}{}
+
+\glsaddall
+
+\printglossaries
+
+\newglossaryentry{extrazellulaerer-Matrix}
+{name=extrazellulärer Matrix,
+ description={Gewebe, das außerhalb der Zelle liegt und diese schützend umgibt}}
+
+\end{document}

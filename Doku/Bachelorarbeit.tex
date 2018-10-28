@@ -1,0 +1,336 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=30mm,
+ right = 25mm,
+ top=25mm,
+ bottom = 25mm,
+ }
+
+\setcounter{secnumdepth}{3} %new
+%\usepackage[hyphens]{url}
+%\usepackage[bookmarksopen,
+%bookmarksdepth=2,
+%breaklinks=true]{hyperref}
+\usepackage[hyphens]{url}
+\usepackage[
+bookmarksopen,
+bookmarksdepth=2,
+breaklinks=true
+]{hyperref}
+\usepackage{cite}
+\usepackage[aboveskip=1pt,labelfont=bf,labelsep=period,justification=centering,singlelinecheck=off]{caption}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr,sectsty}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{pgf,tikz,pgfplots}
+\usepackage{glossaries} %hiermit kann man einen Glossar erstellen, nicht empfohlen für Bachelor- und Masterarbeiten
+%\usepackage{listings}
+%\usepackage{lineno}
+\usepackage{tabto}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{listingsutf8}
+\lstset{inputencoding=utf8/latin1}%hier passiert die Magie
+
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgr ay}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break, then, end, const, prototype, for,create,beforeEach,afterEach, beforeAll,afterAll,Funktion,describe,document  },
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstset{
+   language=JavaScript,
+   backgroundcolor=\color{lightgray},
+   extendedchars=true,
+   basicstyle=\footnotesize\ttfamily,
+   showstringspaces=false,
+   showspaces=false,
+   numbers=left,
+   numberstyle=\footnotesize,
+   numbersep=9pt,
+   tabsize=2,
+   breaklines=true,
+   showtabs=false,
+   captionpos=b
+}
+
+\lstdefinelanguage{Grammar}{
+  keywords={grammar, init, fragment},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstset{
+   language=Grammar,
+   backgroundcolor=\color{lightgray},
+   extendedchars=true,
+   basicstyle=\footnotesize\ttfamily,
+   showstringspaces=false,
+   showspaces=false,
+   numbers=left,
+   numberstyle=\footnotesize,
+   numbersep=9pt,
+   tabsize=2,
+   breaklines=true,
+   showtabs=false,
+   captionpos=b
+}
+
+
+
+\lstdefinestyle{myCustomHTMLStyle}{
+  language=HTML,
+  numbers=left, 
+  numberstyle=\tiny,
+  stepnumber=1,
+  numbersep=5pt,
+  tabsize=1,
+  showspaces=false,
+  showtabs=false,
+  showstringspaces=false,
+   literate={\ \ }{{\ }}1
+}
+\include{glossary} %Datei glossary.tex könnte Glossareinträge enthalten, diese werden mit \newglossaryentry{} und \newacronym{} definiert
+%\makeglossaries
+
+
+\pgfplotsset{compat=1.15}
+\usepackage{indentfirst}
+\usetikzlibrary{arrows}
+\graphicspath{{./bilder/}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}  \pagestyle{fancy}
+\renewcommand{\contentsname}{Inhalt}    
+\renewcommand{\refname}{Literatur}
+\renewcommand{\indexname}{Register}     
+\renewcommand{\chaptername}{}
+\renewcommand{\figurename}{\small Abb.} 
+\renewcommand{\tablename}{\small Tab.}
+\renewcommand{\appendixname}{}          
+\renewcommand{\bibname}{Literatur}
+\allsectionsfont{\sffamily} 
+\chaptertitlefont{\Huge\sffamily\raggedleft}
+\chapternumberfont{\riesigeKapNummer \raggedleft}
+\newtheorem{thm}{Theorem}[chapter]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{proposition}[thm]{Proposition}
+\newtheorem{corol}[thm]{Korollar}
+\newtheorem{defi}[thm]{Definition}
+\newtheorem{ex}[thm]{Beispiel}
+\newtheorem{al}[thm]{Algorithmus}                                     
+\newtheorem{sa}[thm]{Satz}   
+\newtheorem{bem}[thm]{Bemerkung}                                   
+                                 
+%\includeonly{Kap-01}
+%\includeonly{Kap-02}
+%\includeonly{Kap-03}
+%\includeonly{Kap-03-1}
+%\includeonly{Kap-04}
+%\includeonly{Kap-05}
+
+%\include{titel-fhl} % Titelblätter FHL 
+%    \cleardoublepage
+%   % \include{abstract} % Abstract   
+%    \include{erklaerung-fhl} % Erklärung (Arbeit selbstständig verfasst) 
+%    \cleardoublepage
+%\include{titel-fhl} % Titelblätter FHL 
+%\include{Motivation}
+%\include{GrundlagenDerAussagenlogik}
+%	\include{SyntaxDerAussagenlogik}
+%	\include{SematikDerAussagenlogik}
+%	\include{ErfuellbarkeitUndTautologie}
+%	\include{SemantischesTableau}
+%\include{Frameworks}
+%	\include{Antlr4}
+%	\include{Bootstrap}
+%	\include{GoogleCharts}
+%	\include{Jasmin}
+%	
+%\include{Analyse}
+%	\include{Lastenheft}
+%	\include{Anwendungsfall}
+%\include{Architektur}
+%\include{Implementierung}
+%\include{Softwaretest}
+%\include{Zusammenfassung}
+%
+%\include{Literatur}
+%
+%\bibliographystyle{plain}
+%\thispagestyle{empty}
+%\bibliography{bib}
+%\end{document}
+
+% ---------------------------------------------------------------
+\frontmatter % Titelblätter und Erklärung
+    \pagestyle{empty} % Seitennummerierung abschalten
+		\include{titel-fhl} % Titelblätter FHL 
+    \cleardoublepage
+   % \include{abstract} % Abstract 
+    %\cleardoublepage
+    \include{erklaerung-fhl} % Erklärung (Arbeit selbstständig verfasst)
+		\cleardoublepage
+    %\include{danksagung} % optional
+    \tableofcontents % Inhaltsverzeichnis
+    \addtocontents{toc}{\protect\thispagestyle{empty}}
+		
+% ---------------------------------------------------------------
+\mainmatter % die eigentliche Arbeit
+    \pagestyle{headings}
+ \font\riesigeKapNummer = cmssdc10 at 72.72pt %% scaled \magstep5
+
+\newcommand{\Datum}{\today}
+\pagestyle{fancy}
+\addtolength{\headwidth}{\marginparsep}
+%\addtolength{\headwidth}{\marginparwidth}
+\addtolength{\headheight}{2pt}
+%%
+%\renewcommand{\baselinestretch}{2.0}
+\setlength{\parskip}{0.8em}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\renewcommand{\indexname}{Index}
+\fancyhf{}
+\fancyhead[LE,RO]{\sffamily\thepage}
+\fancyhead[LO]{\sffamily\rightmark} \fancyhead[RE]{\sffamily\leftmark}
+      \cfoot{}
+
+\fancypagestyle{plain}{%
+    \fancyhead{}
+   % \fancyfoot[LO]{\sf\fs T. Nguyen: Bachelorarbeit (\Datum)}
+    \fancyfoot[RO]{\sf\thepage}
+    \renewcommand{\headrulewidth}{0pt} %keine Linie in der Fußzeile
+    }
+\allsectionsfont{\sffamily }
+\chaptertitlefont{\Huge\sffamily\raggedleft }
+\chapternumberfont{\riesigeKapNummer \raggedleft}
+
+\newcommand{\fs}{\footnotesize }
+\newcommand{\mc}[3]{\multicolumn{#1}{#2}{#3}}
+
+\def\DraftMode{false}
+%\def\DraftMode{true}
+
+\title{Bachelorarbeit }
+\author{Tram Nguyen}
+\date{\today}
+
+\input{Motivation}
+\cleardoublepage
+%\include{Analyse}
+\input{Analyse}
+%	\include{Lastenheft}
+	\input{Lastenheft}
+	\input{Anwendungsfall}
+%	\include{Anwendungsfall}
+%\include{GrundlagenDerAussagenlogik}
+%\cleardoublepage
+\input{GrundlagenDerAussagenlogik}
+%	\include{SyntaxDerAussagenlogik}
+	\input{SyntaxDerAussagenlogik}
+%	\include{SemantikDerAussagenlogik}
+%	\input{SemantikDerAussagenlogik}
+%	\include{ErfuellbarkeitUndTautologie}
+	\input{ErfuellbarkeitUndTautologie}
+	\input{SemantischesTableau}
+%\cleardoublepage	
+\input{Frameworks}
+	\input{Antlr4}
+	\input{Bootstrap}
+	\input{GoogleCharts}
+	\input{Jasmine}
+%\cleardoublepage		
+\include{Architektur}
+%\cleardoublepage
+\input{Implementierung}
+	\input{StrukturDateisystem}
+	\input{Grammatik}
+	\input{Model}
+	\input{ControllerView}
+%\cleardoublepage
+\input{Softwaretest}
+%\cleardoublepage
+\input{Zusammenfassung}
+\clearpage
+\pagestyle{empty} % Seitennummerierung abschalten
+\input{danksagung} % optional
+\cleardoublepage
+
+% ---------------------------------------------------------------
+\backmatter % ab hier keine Nummerierung mehr
+ \pagestyle{empty} % Seitennummerierung abschalten
+	\listoffigures
+	\listoftables
+	\printglossaries %hiermit würde der Glossar dargestellt
+    %\bibliographystyle{geralpha} %alte Befehle ohne biber
+    %\bibliography{./bib/thesis}
+	%\printbibliography
+%\bibliographystyle{plain}
+\bibliographystyle{alphadin} %alte Befehle ohne biber
+\thispagestyle{empty}
+\bibliography{bib}
+\end{document}
+
+
+

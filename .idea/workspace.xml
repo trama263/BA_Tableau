@@ -1,0 +1,1557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Tableau/src/Model/TableauForPropositionalLogic.js" description="* The constructor of tableau-algorithm" line="12" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ae0895b-cb64-49cb-8893-93751d7c0f60" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UnitTestControllerView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/UnitTestControllerView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1717">
+              <caret line="156" column="117" lean-forward="false" selection-start-line="156" selection-start-column="117" selection-end-line="156" selection-end-column="117" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#button#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#ul#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#1;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#input#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8856#8863#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#13012#13019#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#14425#14432#1" expanded="true" />
+                <element signature="e#14538#14545#1" expanded="true" />
+                <element signature="e#14740#14747#1" expanded="true" />
+                <element signature="e#16044#16049#0" expanded="true" />
+                <element signature="e#16834#16838#0" expanded="true" />
+                <element signature="e#17880#17886#0" expanded="true" />
+                <element signature="e#18838#18844#0" expanded="true" />
+                <element signature="e#19617#19623#0" expanded="true" />
+                <element signature="e#20496#20502#0" expanded="true" />
+                <element signature="e#20716#20722#0" expanded="true" />
+                <element signature="e#20936#20942#0" expanded="true" />
+                <element signature="e#21489#21496#0" expanded="true" />
+                <element signature="e#21787#21793#0" expanded="true" />
+                <element signature="e#22002#22008#0" expanded="true" />
+                <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#23134#23140#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#24544#24550#1" expanded="true" />
+                <element signature="e#24656#24662#1" expanded="true" />
+                <element signature="e#24857#24863#1" expanded="true" />
+                <element signature="e#25566#25571#0" expanded="true" />
+                <element signature="e#26522#26526#0" expanded="true" />
+                <element signature="e#27218#27224#0" expanded="true" />
+                <element signature="e#28008#28014#0" expanded="true" />
+                <element signature="e#28977#28983#0" expanded="true" />
+                <element signature="e#29846#29852#0" expanded="true" />
+                <element signature="e#30234#30240#0" expanded="true" />
+                <element signature="e#30622#30628#0" expanded="true" />
+                <element signature="e#31162#31169#0" expanded="true" />
+                <element signature="e#31469#31475#0" expanded="true" />
+                <element signature="e#31857#31863#0" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#37300#37305#1" expanded="true" />
+                <element signature="e#37570#37574#1" expanded="true" />
+                <element signature="e#38380#38387#1" expanded="true" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Global.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/src/Global.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tableau.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/src/Model/Tableau.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableauNodeUnitTest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/Tests/TableauNodeUnitTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexTableau.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/indexTableau.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8789">
+              <caret line="517" column="6" lean-forward="false" selection-start-line="517" selection-start-column="6" selection-end-line="517" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8584#8591#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#12740#12747#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#14153#14160#1" expanded="true" />
+                <element signature="e#14266#14273#1" expanded="true" />
+                <element signature="e#14468#14475#1" expanded="true" />
+                <element signature="e#15772#15777#0" expanded="true" />
+                <element signature="e#16562#16566#0" expanded="true" />
+                <element signature="e#17608#17614#0" expanded="true" />
+                <element signature="e#18566#18572#0" expanded="true" />
+                <element signature="e#19345#19351#0" expanded="true" />
+                <element signature="e#20224#20230#0" expanded="true" />
+                <element signature="e#20444#20450#0" expanded="true" />
+                <element signature="e#20664#20670#0" expanded="true" />
+                <element signature="e#21217#21224#0" expanded="true" />
+                <element signature="e#21515#21521#0" expanded="true" />
+                <element signature="e#21730#21736#0" expanded="true" />
+                <element signature="e#22862#22868#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#24272#24278#1" expanded="true" />
+                <element signature="e#24384#24390#1" expanded="true" />
+                <element signature="e#24585#24591#1" expanded="true" />
+                <element signature="e#25294#25299#0" expanded="true" />
+                <element signature="e#26250#26254#0" expanded="true" />
+                <element signature="e#26946#26952#0" expanded="true" />
+                <element signature="e#27736#27742#0" expanded="true" />
+                <element signature="e#28705#28711#0" expanded="true" />
+                <element signature="e#29574#29580#0" expanded="true" />
+                <element signature="e#29962#29968#0" expanded="true" />
+                <element signature="e#30350#30356#0" expanded="true" />
+                <element signature="e#30890#30897#0" expanded="true" />
+                <element signature="e#31197#31203#0" expanded="true" />
+                <element signature="e#31585#31591#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#37028#37033#1" expanded="true" />
+                <element signature="e#37298#37302#1" expanded="true" />
+                <element signature="e#38108#38115#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/LICENSE.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="infoTab.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/infoTab.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="65" column="17" lean-forward="false" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableauNode.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/src/Model/TableauNode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6834">
+              <caret line="402" column="12" lean-forward="false" selection-start-line="402" selection-start-column="12" selection-end-line="402" selection-end-column="12" />
+              <folding>
+                <marker date="1535554773331" expanded="true" signature="6303:6331" ph="..." />
+                <marker date="1535554773331" expanded="true" signature="7227:7255" ph="..." />
+                <marker date="1535554773331" expanded="true" signature="8274:8302" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableauView.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="264" column="9" lean-forward="true" selection-start-line="264" selection-start-column="9" selection-end-line="264" selection-end-column="9" />
+              <folding>
+                <marker date="1539159367528" expanded="true" signature="9350:9357" ph="×" />
+                <marker date="1539159367528" expanded="true" signature="9635:9641" ph="⊙" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableauController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2363">
+              <caret line="143" column="10" lean-forward="false" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>drawTableauChartStepByStep</find>
+      <find>drawTableauChartStepByStep()</find>
+      <find>RootFormula</find>
+      <find>RootTableau</find>
+      <find>tautologyDiv</find>
+      <find>getFormulaTypAfterNegation</find>
+      <find>tableau</find>
+      <find>FormulaChartData</find>
+      <find>Verwende</find>
+      <find>Verwenden</find>
+      <find>satisfiableSpan</find>
+      <find>formula</find>
+      <find>tautologySpan</find>
+      <find>result</find>
+      <find>input</find>
+      <find>tautologySpam</find>
+      <find>panel-input</find>
+      <find>formulaInput</find>
+      <find>errorInput</find>
+      <find>pressNextStepButton()</find>
+      <find>stepByStepDiv</find>
+      <find>view</find>
+      <find>getFormulaTyp()</find>
+      <find>getFormulaTyp</find>
+      <find>markedLeaves</find>
+      <find>controller</find>
+      <find>stepByStepDiagram</find>
+      <find>notLeaves</find>
+      <find>typ</find>
+      <find>literal</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>beta</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tableau/src/import.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/FormulaVisitor.js" />
+        <option value="$PROJECT_DIR$/Tableau/spec/FormulaUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/spec/ButtonOnclickEventHandlerUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/ButtonOnclickEventHandler.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Import.js" />
+        <option value="$PROJECT_DIR$/Tableau/spec/FormulaListenerUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/spec/TableauControllerUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/spec/TableauNodeUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/FormulaListener.js" />
+        <option value="$PROJECT_DIR$/Tableau/spec/TableauForPropositionalLogicUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/spec/TableauControllerAndViewUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/antlr4/error/ErrorListener.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Formula.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/TableauNode.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/TableauView.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/TableauController.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Tableau.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/TableauForPropositionalLogic.js" />
+        <option value="$PROJECT_DIR$/Tableau/Test/FormulaListenerUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Main.js" />
+        <option value="$PROJECT_DIR$/Tableau/Test/TableauControllerAndViewUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarListener.js" />
+        <option value="$PROJECT_DIR$/Tableau/UnitTestWithJasmin.html" />
+        <option value="$PROJECT_DIR$/Tableau/Tests/TableauForPropositionalLogicUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammar.g4" />
+        <option value="$PROJECT_DIR$/Tableau/UnitTestModel.html" />
+        <option value="$PROJECT_DIR$/Tableau/semantik.html" />
+        <option value="$PROJECT_DIR$/tableau.html" />
+        <option value="$PROJECT_DIR$/Tableau/infoTableau.html" />
+        <option value="$PROJECT_DIR$/Tableau/semantic.html" />
+        <option value="$PROJECT_DIR$/Tableau/syntax.html" />
+        <option value="$PROJECT_DIR$/Tableau/tableau.html" />
+        <option value="$PROJECT_DIR$/Tableau/tableauTab.html" />
+        <option value="$PROJECT_DIR$/Tableau/src/Enums.js" />
+        <option value="$PROJECT_DIR$/Tableau/Tests/FormulaUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/Tests/TableauControllerAndViewUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/Tests/TableauNodeUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/Tests/FormulaListenerUnitTest.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/TableauClient.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Model/TableauNode.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Model/TableauForPropositionalLogic.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Model/Tableau.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Model/FormulaListener.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Model/Formula.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/Global.js" />
+        <option value="$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauController.js" />
+        <option value="$PROJECT_DIR$/Tableau/UnitTestControllerView.html" />
+        <option value="$PROJECT_DIR$/Tableau/infoTab.html" />
+        <option value="$PROJECT_DIR$/Tableau/indexTableau.html" />
+        <option value="$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauView.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableau_ba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableau_ba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableau_ba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableau_ba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tableau" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableau_ba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tableau_ba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Doku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Inf_Soft\JavaScript\Git\BA_Bitbucket\tableau_ba\Tableau" />
+      <recent name="G:\Inf_Soft\JavaScript\Git\BA_Bitbucket\tableau_ba\Tableau\GUI" />
+      <recent name="G:\Inf_Soft\JavaScript\Git\BA_Bitbucket\tableau_ba\Tableau\src\Model" />
+      <recent name="G:\Inf_Soft\JavaScript\Git\BA_Bitbucket\tableau_ba\Tableau\src\ControllerAndView" />
+      <recent name="G:\Inf_Soft\JavaScript\Git\BA_Bitbucket\tableau_ba\Tableau\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Inf_Soft\JavaScript\Git\BA_Bitbucket\tableau_ba\Tableau" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.TableauControllerUnitTest.js">
+    <configuration default="false" name="TableauControllerUnitTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/Tableau/Tests/TableauControllerAndViewUnitTest.js" working-dir="$PROJECT_DIR$/Tableau/Tests">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.TableauControllerUnitTest.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.TableauControllerUnitTest.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ae0895b-cb64-49cb-8893-93751d7c0f60" name="Default" comment="" />
+      <created>1526046369626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526046369626</updated>
+      <workItem from="1526046376744" duration="44307000" />
+      <workItem from="1526416074138" duration="1938000" />
+      <workItem from="1526487743936" duration="491000" />
+      <workItem from="1527010004065" duration="2563000" />
+      <workItem from="1527083071471" duration="20711000" />
+      <workItem from="1527235994983" duration="150104000" />
+      <workItem from="1528471526240" duration="136811000" />
+      <workItem from="1529879456571" duration="420994000" />
+      <workItem from="1536519439646" duration="2637000" />
+      <workItem from="1538027997672" duration="4411000" />
+      <workItem from="1539099254137" duration="1184000" />
+      <workItem from="1539151817303" duration="3273000" />
+      <workItem from="1540762171162" duration="524000" />
+      <workItem from="1540762824574" duration="555000" />
+    </task>
+    <task id="LOCAL-00005" summary="Jasmin-Beispiele löschen">
+      <created>1526309620379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526309620379</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ba_doku hinrugefügt">
+      <created>1526310467529</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526310467529</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ba_doku hinrugefügt">
+      <created>1526310692454</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1526310692454</updated>
+    </task>
+    <task id="LOCAL-00008" summary="unit test für TableauNode, Formula hinzugefügt">
+      <created>1527350491051</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527350491051</updated>
+    </task>
+    <task id="LOCAL-00009" summary="unit test für FormulaListener hinzugefügt">
+      <created>1527360630726</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527360630726</updated>
+    </task>
+    <task id="LOCAL-00010" summary="unit test für FormulaListener hinzugefügt">
+      <created>1527371061354</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1527371061354</updated>
+    </task>
+    <task id="LOCAL-00011" summary="TableauForPropositionalLogic hinzugefügt">
+      <created>1527380631389</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1527380631390</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Doku aktualisiert">
+      <created>1527520900885</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1527520900885</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Kap 04-01, 04-02, 04-03 und  asta-Diagramm hinzugefügt">
+      <created>1527521055932</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1527521055932</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Tableau Klasse hinzugefügt, TableauForPrositionalLogic mit Vererbung umgeschrieben">
+      <created>1527752756705</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1527752756705</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Kommentar hinzugefügt und unnögtige console.log entfernt">
+      <created>1527848242885</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1527848242885</updated>
+    </task>
+    <task id="LOCAL-00016" summary="TableauForPropositionalLogic Konstruktor hinzugefügt. Funktion getFormulaTypAfterNegation in der Tableau-Klasse korrigiert. Tableau Diagramme hergestellt">
+      <created>1528035697415</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528035697448</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Kap 3_1 neue geschrieben, class diagramm verändert">
+      <created>1528106061890</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1528106061891</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Eingabe-fehler behandelt, tautology und erfüllbarkeit implementiert, GUI erweitert">
+      <created>1528590440951</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528590440951</updated>
+    </task>
+    <task id="LOCAL-00019" summary="GUI erweitert">
+      <created>1528640621417</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528640621417</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Kap03 korrigiert, behandlung der error erweitert, gui verändert">
+      <created>1528704383445</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1528704383445</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Project Architecture ändert, Gui mit der Responsive erweitert, Fehlerseingabe behandert">
+      <created>1529273577788</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1529273577788</updated>
+    </task>
+    <task id="LOCAL-00022" summary="antlr runtime und antlr4.bat hinzugefügt">
+      <created>1529273785879</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1529273785879</updated>
+    </task>
+    <task id="LOCAL-00023" summary="bootstrap3 framework hinzugefügt">
+      <created>1529273916995</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1529273916995</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Rechtschreibungsfehler korrigiert, Gui-farbe geändert">
+      <created>1529329247813</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1529329247813</updated>
+    </task>
+    <task id="LOCAL-00025" summary="gui erweitert">
+      <created>1529879845937</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1529879845937</updated>
+    </task>
+    <task id="LOCAL-00026" summary="step by step erweitert">
+      <created>1529890629958</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1529890629958</updated>
+    </task>
+    <task id="LOCAL-00027" summary="chart für step by step erweitert">
+      <created>1530055901326</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1530055901327</updated>
+    </task>
+    <task id="LOCAL-00028" summary="chart für step by step ändert, parentId als attribute von TableauNode hinzugefügt">
+      <created>1530199725644</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1530199725644</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Step by Step fertig implementieren, Gui schöner aufgebaut">
+      <created>1530212490811</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1530212490811</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Step by Step fertig implementieren, Gui schöner aufgebaut">
+      <created>1530234829954</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1530234829955</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Paket Achitektur umändert">
+      <created>1530477705796</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1530477705796</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Umbenennen class ButtonEvent und class Main">
+      <created>1530544915855</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1530544915855</updated>
+    </task>
+    <task id="LOCAL-00033" summary="enums.js hinzugefügt">
+      <created>1530712727362</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1530712727362</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Class TableauView hinzugefügt">
+      <created>1530714858265</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1530714858265</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Assoziation zwischen view und controller erstellt">
+      <created>1530715467812</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1530715467812</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Errormessage in reihe ausgegeben,">
+      <created>1530717487128</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1530717487128</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Main.js hinzugefügt">
+      <created>1530717686778</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1530717686778</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Alle Enums in der Enums.js hunzugefügt">
+      <created>1530718360484</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1530718360484</updated>
+    </task>
+    <task id="LOCAL-00039" summary="TableauControllerAndViewUnitTest hinzugefügt">
+      <created>1531055456273</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1531055456289</updated>
+    </task>
+    <task id="LOCAL-00040" summary="rename einige methode in der Controller und View">
+      <created>1531057553146</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1531057553146</updated>
+    </task>
+    <task id="LOCAL-00041" summary="rename einige methode in der Formula und TableauNode">
+      <created>1531065610662</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1531065610662</updated>
+    </task>
+    <task id="LOCAL-00042" summary="konstruktor der Tableau umgeschrieben">
+      <created>1531082817474</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1531082817546</updated>
+    </task>
+    <task id="LOCAL-00043" summary="paket architectur umändert">
+      <created>1531092887974</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1531092887974</updated>
+    </task>
+    <task id="LOCAL-00044" summary="rechschreibung beheben">
+      <created>1532876354984</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1532876355299</updated>
+    </task>
+    <task id="LOCAL-00045" summary="refactor main.js, tableauview">
+      <created>1533630364760</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1533630364835</updated>
+    </task>
+    <task id="LOCAL-00046" summary="tableau methode isSatisfiable() hinzugefügt">
+      <created>1533740023099</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1533740023129</updated>
+    </task>
+    <task id="LOCAL-00047" summary="unnoetiger kommentar loeschen">
+      <created>1534289465099</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1534289465099</updated>
+    </task>
+    <task id="LOCAL-00048" summary="bevor kommentaren löschen">
+      <created>1534431480214</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1534431480214</updated>
+    </task>
+    <task id="LOCAL-00049" summary="version 1808">
+      <created>1534620567461</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1534620567462</updated>
+    </task>
+    <task id="LOCAL-00050" summary="version 2908">
+      <created>1535553715952</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1535553719852</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Doku aktuallisiert, tests-folder und license.txt hinzugefügt">
+      <created>1538032248200</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1538032248200</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Rechtschreibung korrigieren">
+      <created>1540762508378</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1540762508380</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add Project">
+      <created>1540762647855</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1540762647855</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="790503000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2373512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19672132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11764706" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.024549918" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16134454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1603928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3132137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46153846" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11764706" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19672132" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.024549918" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.074165635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3132137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16134454" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chart für step by step ändert, parentId als attribute von TableauNode hinzugefügt" />
+    <MESSAGE value="Step by Step fertig implementieren, Gui schöner aufgebaut" />
+    <MESSAGE value="Paket Achitektur umändert" />
+    <MESSAGE value="Umbenennen class ButtonEvent und class Main" />
+    <MESSAGE value="enums.js hinzugefügt" />
+    <MESSAGE value="Class TableauView hinzugefügt" />
+    <MESSAGE value="Assoziation zwischen view und controller erstellt" />
+    <MESSAGE value="Errormessage in reihe ausgegeben," />
+    <MESSAGE value="Main.js hinzugefügt" />
+    <MESSAGE value="Alle Enums in der Enums.js hunzugefügt" />
+    <MESSAGE value="TableauControllerAndViewUnitTest hinzugefügt" />
+    <MESSAGE value="rename einige methode in der Controller und View" />
+    <MESSAGE value="rename einige methode in der Formula und TableauNode" />
+    <MESSAGE value="konstruktor der Tableau umgeschrieben" />
+    <MESSAGE value="paket architectur umändert" />
+    <MESSAGE value="rechschreibung beheben" />
+    <MESSAGE value="refactor main.js, tableauview" />
+    <MESSAGE value="tableau methode isSatisfiable() hinzugefügt" />
+    <MESSAGE value="unnoetiger kommentar loeschen" />
+    <MESSAGE value="bevor kommentaren löschen" />
+    <MESSAGE value="version 1808" />
+    <MESSAGE value="version 2908" />
+    <MESSAGE value="Doku aktuallisiert, tests-folder und license.txt hinzugefügt" />
+    <MESSAGE value="Rechtschreibung korrigieren" />
+    <MESSAGE value="Add Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarLexer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammar.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/FormulaGrammar.g4" />
+    <entry file="file://$USER_HOME$/Desktop/TableauDemoBootstrap3/style.css" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/Index.html" />
+    <entry file="file://$PROJECT_DIR$/Tableau/indexChanwa.html" />
+    <entry file="file://$PROJECT_DIR$/Tableau/indexDemo.html" />
+    <entry file="file://$PROJECT_DIR$/Tableau/Bootstrap/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" column="0" lean-forward="true" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/Bootstrap/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="98" lean-forward="true" selection-start-line="0" selection-start-column="98" selection-end-line="0" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/Bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4/error/Errors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2434">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Kopies for BA/BA_Github - Kopie/Demo/spec/MySpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/index124.html" />
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4/error/ErrorListener.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/Tableau/src</OriginalElement>
+          <nodes>
+            <node x="278.1973595755477" y="211.40315055612058">$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;</node>
+            <node x="256.0" y="795.0">$PROJECT_DIR$/Tableau/src/Enums.js#FormulaOperatorEnum#1342;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Enums.js#FormulaTypEnum#473;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Enums.js#RuleEnum#1063;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Enums.js#StatusEnum#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Enums.js#TautologyOrSatisfiableEnum#174;</node>
+            <node x="573.0" y="755.0">ErrorListener;</node>
+            <node x="699.0" y="127.0">$PROJECT_DIR$/Tableau/src/Model/Formula.js#Formula#3757;</node>
+            <node x="318.0" y="0.0">$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarLexer.js#FormulaGrammarLexer#10783;</node>
+            <node x="954.7292298362645" y="521.4463311097636">$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarListener.js#FormulaGrammarListener#3055;</node>
+            <node x="28.0" y="592.0">$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarParser.js#FormulaGrammarParser#23593;</node>
+            <node x="0.0" y="403.0">$PROJECT_DIR$/Tableau/src/Model/FormulaListener.js#FormulaListener#3520;</node>
+            <node x="881.8083687083081" y="744.7177077016374">$PROJECT_DIR$/Tableau/src/Model/Tableau.js#Tableau#1071;</node>
+            <node x="35.0" y="216.0">$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauController.js#TableauController#5381;</node>
+            <node x="931.3110976349302" y="274.81352334748334">$PROJECT_DIR$/Tableau/src/Model/TableauForPropositionalLogic.js#TableauForPropositionalLogic#13112;</node>
+            <node x="181.0" y="102.0">$PROJECT_DIR$/Tableau/src/Model/TableauNode.js#TableauNode#13476;</node>
+            <node x="554.0" y="28.0">$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauView.js#TableauView#10929;</node>
+            <node x="12.76773802304433" y="780.9211643420255">index.js</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauView.js#TableauView#10929;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarParser.js#FormulaGrammarParser#23593;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarListener.js#FormulaGrammarListener#3055;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/src/Model/FormulaListener.js#FormulaListener#3520;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauController.js#TableauController#5381;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="ErrorListener;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarLexer.js#FormulaGrammarLexer#10783;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/src/Enums.js#FormulaOperatorEnum#1342;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Enums.js#FormulaTypEnum#473;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Enums.js#RuleEnum#1063;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Enums.js#StatusEnum#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Enums.js#TautologyOrSatisfiableEnum#174;">
+              <point x="-20.55165062266994" y="0.0" />
+              <point x="-20.551650622669932" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/src/Model/Tableau.js#Tableau#1071;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/src/Model/TableauForPropositionalLogic.js#TableauForPropositionalLogic#13112;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/src/Model/Formula.js#Formula#3757;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="$PROJECT_DIR$/Tableau/src/Model/TableauNode.js#TableauNode#13476;">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;" target="index.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4828092243186586" x="-196.0" y="486.0" />
+          <SelectedNodes>
+            <node>$PROJECT_DIR$/Tableau/src/Global.js#ErrorListener#114;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Formula#514;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarLexer#196;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarListener#414;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaGrammarParser#303;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaListener#577;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaOperatorEnum#945;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#FormulaTypEnum#830;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#RuleEnum#885;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#StatusEnum#773;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#Tableau#715;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauController#1132;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauForPropositionalLogic#1025;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauNode#652;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TableauView#1223;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#TautologyOrSatisfiableEnum#1317;G:/Inf_Soft/JavaScript/Git/BA_Bitbucket/tableau_ba/Tableau/src/Global.js#antlr4#57;</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/FormulaGrammar.g4" />
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/antr4.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="54" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarVisitor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammar.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarParser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarLexer.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarLexer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammarListener.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="51" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4-generated-sources/FormulaGrammar.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/tautologyTab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="55" column="45" lean-forward="false" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/syntaxTab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="142" column="25" lean-forward="false" selection-start-line="142" selection-start-column="7" selection-end-line="142" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/Model/FormulaVisitor.js" />
+    <entry file="file://$PROJECT_DIR$/Tableau/src/Enums.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/Model/Formula.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="143" column="14" lean-forward="true" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/Tests/TableauControllerAndViewUnitTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="160" column="29" lean-forward="false" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/Tests/FormulaListenerUnitTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="100" column="63" lean-forward="true" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/Model/TableauForPropositionalLogic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/tableauTab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/TableauClient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/Model/FormulaListener.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="122" column="2" lean-forward="false" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/UnitTestModel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/Tests/FormulaUnitTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="112" lean-forward="false" selection-start-line="33" selection-start-column="112" selection-end-line="33" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/Tests/TableauForPropositionalLogicUnitTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="79" lean-forward="false" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/antlr4/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/lib/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/infoTab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="17" lean-forward="false" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/Global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/Model/Tableau.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/Tests/TableauNodeUnitTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/Model/TableauNode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6834">
+          <caret line="402" column="12" lean-forward="false" selection-start-line="402" selection-start-column="12" selection-end-line="402" selection-end-column="12" />
+          <folding>
+            <marker date="1535554773331" expanded="true" signature="6303:6331" ph="..." />
+            <marker date="1535554773331" expanded="true" signature="7227:7255" ph="..." />
+            <marker date="1535554773331" expanded="true" signature="8274:8302" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/UnitTestControllerView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="156" column="117" lean-forward="false" selection-start-line="156" selection-start-column="117" selection-end-line="156" selection-end-column="117" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#button#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#1;n#ul#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#input#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8856#8863#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#13012#13019#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14425#14432#1" expanded="true" />
+            <element signature="e#14538#14545#1" expanded="true" />
+            <element signature="e#14740#14747#1" expanded="true" />
+            <element signature="e#16044#16049#0" expanded="true" />
+            <element signature="e#16834#16838#0" expanded="true" />
+            <element signature="e#17880#17886#0" expanded="true" />
+            <element signature="e#18838#18844#0" expanded="true" />
+            <element signature="e#19617#19623#0" expanded="true" />
+            <element signature="e#20496#20502#0" expanded="true" />
+            <element signature="e#20716#20722#0" expanded="true" />
+            <element signature="e#20936#20942#0" expanded="true" />
+            <element signature="e#21489#21496#0" expanded="true" />
+            <element signature="e#21787#21793#0" expanded="true" />
+            <element signature="e#22002#22008#0" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#23134#23140#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#24544#24550#1" expanded="true" />
+            <element signature="e#24656#24662#1" expanded="true" />
+            <element signature="e#24857#24863#1" expanded="true" />
+            <element signature="e#25566#25571#0" expanded="true" />
+            <element signature="e#26522#26526#0" expanded="true" />
+            <element signature="e#27218#27224#0" expanded="true" />
+            <element signature="e#28008#28014#0" expanded="true" />
+            <element signature="e#28977#28983#0" expanded="true" />
+            <element signature="e#29846#29852#0" expanded="true" />
+            <element signature="e#30234#30240#0" expanded="true" />
+            <element signature="e#30622#30628#0" expanded="true" />
+            <element signature="e#31162#31169#0" expanded="true" />
+            <element signature="e#31469#31475#0" expanded="true" />
+            <element signature="e#31857#31863#0" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#37300#37305#1" expanded="true" />
+            <element signature="e#37570#37574#1" expanded="true" />
+            <element signature="e#38380#38387#1" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/indexTableau.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8789">
+          <caret line="517" column="6" lean-forward="false" selection-start-line="517" selection-start-column="6" selection-end-line="517" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8584#8591#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#12740#12747#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14153#14160#1" expanded="true" />
+            <element signature="e#14266#14273#1" expanded="true" />
+            <element signature="e#14468#14475#1" expanded="true" />
+            <element signature="e#15772#15777#0" expanded="true" />
+            <element signature="e#16562#16566#0" expanded="true" />
+            <element signature="e#17608#17614#0" expanded="true" />
+            <element signature="e#18566#18572#0" expanded="true" />
+            <element signature="e#19345#19351#0" expanded="true" />
+            <element signature="e#20224#20230#0" expanded="true" />
+            <element signature="e#20444#20450#0" expanded="true" />
+            <element signature="e#20664#20670#0" expanded="true" />
+            <element signature="e#21217#21224#0" expanded="true" />
+            <element signature="e#21515#21521#0" expanded="true" />
+            <element signature="e#21730#21736#0" expanded="true" />
+            <element signature="e#22862#22868#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#24272#24278#1" expanded="true" />
+            <element signature="e#24384#24390#1" expanded="true" />
+            <element signature="e#24585#24591#1" expanded="true" />
+            <element signature="e#25294#25299#0" expanded="true" />
+            <element signature="e#26250#26254#0" expanded="true" />
+            <element signature="e#26946#26952#0" expanded="true" />
+            <element signature="e#27736#27742#0" expanded="true" />
+            <element signature="e#28705#28711#0" expanded="true" />
+            <element signature="e#29574#29580#0" expanded="true" />
+            <element signature="e#29962#29968#0" expanded="true" />
+            <element signature="e#30350#30356#0" expanded="true" />
+            <element signature="e#30890#30897#0" expanded="true" />
+            <element signature="e#31197#31203#0" expanded="true" />
+            <element signature="e#31585#31591#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#37028#37033#1" expanded="true" />
+            <element signature="e#37298#37302#1" expanded="true" />
+            <element signature="e#38108#38115#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="143" column="10" lean-forward="false" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/src/ControllerAndView/TableauView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="264" column="9" lean-forward="true" selection-start-line="264" selection-start-column="9" selection-end-line="264" selection-end-column="9" />
+          <folding>
+            <marker date="1539159367528" expanded="true" signature="9350:9357" ph="×" />
+            <marker date="1539159367528" expanded="true" signature="9635:9641" ph="⊙" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

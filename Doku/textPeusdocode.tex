@@ -1,0 +1,30 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[lmargin=3.81cm,tmargin=2.54cm,rmargin=2.54cm,bmargin=2.52cm]{geometry}
+\usepackage{color}
+\definecolor{darkblue}{rgb}{0,0,.75}
+\usepackage{listings} %iclude code in your document
+
+\lstloadlanguages{Matlab} %use listings with Matlab for Pseudocode
+\lstnewenvironment{PseudoCode}[1][]
+{\lstset{language=Matlab,basicstyle=\scriptsize, keywordstyle=\color{darkblue},numbers=left,xleftmargin=.04\textwidth,#1}}
+{}
+
+\begin{document}
+\begin{figure}[h]
+\caption{How to write algorithms}
+\textbf{Data:} this text\\
+\textbf{Result:} how to write algorithm with \LaTeX2e\\
+initialization;
+\begin{PseudoCode}
+while not at end of this document do
+    read current;
+    if understand
+        go to next section;
+        current section becomes this one;
+    else
+        go back to the beginning of current section;
+    end
+end
+\end{PseudoCode}
+\end{figure}
+\end{document}

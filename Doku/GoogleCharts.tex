@@ -1,0 +1,100 @@
+\section{Google chart tools}
+Um den Tableau zu visualisieren, braucht man ein Werkzeug, das einfach zu bedienen und kostenlos ist. Mit dieser Anforderungen ist Google Charts ein guter Kandidat.
+
+%https://reviews.financesonline.com/p/google-chart-tools/
+Google chart tools \cite{googleCharts}(Google Charts, unterscheidet sich von dem Google Chart API) ist ein interaktiver Webservice \cite{googleChartswiki}, mit dem Benutzer ihre Daten auf ihrer Website über einfache oder attraktive Visualisierungen anzeigen können. Das Werkzeug wird häufig mit einem einfachen JavaScript verwendet, das auf der Webseite eingebettet ist. Mit Google Charts können Benutzer die einfachen Diagramme wie Liniendiagramme bis hin zu komplexen Diagrammen wie Baumdiagramme, erstellen. 
+
+Neben dem standardmäßigen Google-Design werden den Nutzern auch zahlreiche Anpassungsoptionen für ihre Diagramme zur Verfügung gestellt. Das Werkzeug ist recht einfach zu bedienen, da Benutzer nur die Anwendung einbetten, die Google Chart-Bibliotheken laden und die zu charternden Daten eingeben müssen. Nach ein paar Anpassungen und der Zuweisung einer ID kann das Diagramm auf der Webseite aktiviert werden.
+
+Google Charts ist nicht nur kostenlos, sondern auch eine benutzerfreundliche Anwendung. Mit ein wenig JavaScript-Kenntnissen kann man komplizierteste Diagramme und Grafiken erstellen. Die Anpassungsoptionen sind auch ein weiterer erwähnenswerter Vorteil. Diagramme können mit Farben, Linien, Überlagerungen, Punkten usw. angepasst und optimiert werden, damit sie sich leicht an die Schnittstelle der Webseite anpassen. Es gibt eine großartige Dokumentation von Google, die  unter der Seite \url{https://developers.google.com/chart/interactive/docs/} nachgeschlagen werden kann.
+
+%https://www.moesif.com/blog/technical/visualization/How-to-Choose-the-Best-Javascript-Data-Visualization-Library/
+Gegen die Verwendung von Google Charts spricht zum einen, dass eine Netzwerkverbindung erforderlich ist. Außerdem ist es durch Google den Benutzern nicht gestattet, den Code selbst zu speichern oder zu hosten. Diese Einschränkungen haben jedoch keinen Einfluss auf die Anforderungen der Tableau-Anwendung.
+%Und obwohl Google Charts zwar kostenlos ist, ist es aber keine Open Source-Version, es gelten die Google API-Nutzungsbedingungen. 
+
+\subsection{Organigramm}\label{Organigramm}
+Da die Struktur von Tableau ein Baum ist, eignet sich das Organigramm von Google Charts gut zur Visualisierung eines Tableaus.
+
+Organigramme sind ein Diagramm einer Knotenhierarchie, die häufig verwendet wird, um übergeordnete / untergeordnete Beziehungen in einer Organisation darzustellen. Eine Baumfamilie ist eine Art Organigramm\cite{orgCharts}.
+Der folgenden HTML-Quellcode definiert ein einfaches Organigramme \cite{orgCharts}.
+
+\lstinputlisting[language=JavaScript, caption=Organigramme Beispiel,basicstyle=\scriptsize]{googlecharts_organization_chart.htm}
+
+Zuerst muss man den Loader selbst laden, was in einem separaten \textit{script}-Tag mit erfolgt: 
+\begin{lstlisting}[language=HTML,basicstyle=\scriptsize]
+	src="https://www.gstatic.com/charts/loader.js"
+\end{lstlisting} 
+Dieses Tag kann sich entweder im ``head'' oder ``body'' des Dokuments befinden oder dynamisch in das Dokument eingefügt werden. %, während es geladen wird oder nachdem das Laden abgeschlossen wurde.\\
+Nachdem der Loader geladen wurde, kann man \textit{google.charts.load} abrufen. 
+%Wo man es aufruft, kann es sich in einem script Tag im head oder body des Dokuments befinden, und man kann es aufrufen, während das Dokument noch geladen wird oder zu einem beliebigen Zeitpunkt nach dem Laden.\\
+Ab Version 45 kann man \textit{google.charts.load} mehr als einmal abrufen, um weitere Pakete zu laden, aber wenn man dies tut, muss man jedes Mal dieselbe Versionsnummer und dieselbe Spracheinstellung angeben.\\
+
+\begin{lstlisting}[language=JavaScript,basicstyle=\scriptsize]
+google.charts.load('current', {packages:"orgchar"]});
+\end{lstlisting}
+
+Das erste Argument des \textit{google.charts.load} ist der Name oder die Nummer der Version als String. 
+%Zu diesem Zeitpunkt gibt es nur zwei spezielle Versionsnamen und mehrere eingefrorene Versionen.
+Wenn man  \textit{current} angibt, wird dadurch die neueste offizielle Version von Google Charts geladen. 
+%Wenn man den Kandidaten für das nächste Release testen möchten, verwenden Sie 'upcoming'stattdessen.
+Der zweite Parameter des \textit{google.charts.load} ist ein Objekt zum Festlegen von Einstellungen wie Pakete, Sprache, Rückrufen... In dem obigen Beispiel ist \textit{orgchar} der Paketname.
+
+Bevor man eines der von \textit{google.charts.load} geladenen Pakete verwenden kann, muss man warten, bis das Laden beendet ist. 
+%Es reicht nicht aus, nur auf das Laden des Dokuments zu warten.
+Da es einige Zeit dauern kann, bis das Laden beendet ist, muss man eine Rückruffunktion registrieren. Es gibt zwei Möglichkeiten, dies zu tun. Man gibt entweder eine callback Einstellung in dem \textit{google.charts.load} an oder ruft \textit{setOnLoadCallback} mit einer Funktion (z.B \textit{drawChart()}) als Argument auf.
+
+
+%Beachtet man, dass man eine Funktionsdefinition bereitstellen muss, anstatt die Funktion aufzurufen. Die angegebene Funktion kann entweder eine benannte Funktion oder eine anonyme Funktion sein. Wenn die Pakete geladen sind, wird diese Callback-Funktion ohne Argumente aufgerufen. Das Ladeprogramm wartet auch auf das Laden des Dokuments, bevor es den Rückruf aufruft.
+%
+%\begin{lstlisting}[language=HTML, caption=Bootstrap Beispiel]
+%google.charts.setOnLoadCallback ( ZeichenChart1 ); 
+%  google.charts.setOnLoadCallback ( ZeichenChart2 ); 
+%  // ODER 
+%  google.charts.setOnLoadCallback ( 
+%    function () {// Anonyme Funktion, die drawChart1 und drawChart2 
+%         aufruft drawChart1 (); 
+%         drawChart2 (); 
+%      } );
+%\end{lstlisting}
+
+
+%Wenn man mehr als ein Diagramm zeichnen möchte, kann man entweder mehrere Callback-Funktionen registrieren oder diese zu einer Funktion zusammenfassen.
+ 
+%Wenn man mehrere Diagramme auf einer Webseite zeichnen möchte, fügt man folgenden Code auf \textit{<head>} der Seite hinzu:
+%\begin{itemize}
+%\item	Ladet man alle von den Diagrammen benötigten Pakete in einem einzigen Aufruf nach \textit{google.charts.load()}.
+%\item	Für jede Tabelle auf der Seite, fügt man einen Anruf \textit{google.charts.setOnLoadCallback()} mit dem Rückruf, der das Diagramm als Eingabe zeichnet.
+%\end{itemize}
+%Wenn man mehrere Diagramme für die gleichen Daten zeichnen möchte, ist es möglicherweise einfacher, einen einzelnen Rückruf für beide Diagramme zu schreiben.
+
+%Vorbereiten die Daten
+\subsection{DataTable}
+Alle Diagramme benötigen Daten. Google Chart Tools-Diagramme erfordern das Umbrechen von Daten in eine JavaScript-Klasse namens \textit{google.} \textit{visualization.DataTable}. Diese Klasse ist in der Google Visualization-Bibliothek definiert, die man zuvor geladen hat.
+
+Die Organigramm erfordert eine \textit{DataTable} mit drei Spalten, wobei jede Zeile einen Knoten im Organigramm darstellt. Hier sind die drei Spalten:
+\begin{itemize}
+\item	Spalte 0 : Die Knoten-ID. Es sollte unter allen Knoten \textit{eindeutig} sein und beliebige Zeichen einschließlich Leerzeichen enthalten. Dies wird auf dem Knoten angezeigt. Man kann einen formatierten Wert angeben, der stattdessen im Diagramm angezeigt wird. Der unformatierte Wert wird jedoch weiterhin als ID verwendet.
+\item 	Spalte 1(optional): Die ID des übergeordneten Knotens. 
+\item	Spalte 2(optional): Tooltip-Text, der angezeigt wird, wenn ein Benutzer den Mauszeiger über diesen Knoten bewegt.
+\end{itemize}
+Jeder Knoten kann keinen oder einen übergeordneten Knoten und keinen oder mehrere untergeordnete Knoten haben.
+
+\subsection{Zeichnen des Diagramms}
+Der letzte Schritt ist das Zeichnen des Diagramms. Zuerst muss man eine Instanz der Diagrammklasse, die man verwenden möchte, instanziieren und dann muss man \textit{draw()} aufrufen.
+Jeder Diagrammtyp basiert auf einer anderen Klasse, die in der Diagrammdokumentation aufgeführt ist, z.B. basiert das Organigramm auf der \textit{google.visualization.OrgChart}. 
+
+\begin{lstlisting}[language=JavaScript,basicstyle=\scriptsize]
+var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+\end{lstlisting}
+
+Nachdem man seine Daten und Optionen vorbereitet hat, kann man das Diagramm zeichnen. Die Seite muss ein HTML-Element (normalerweise ein \textit{<div>}) enthalten, um das Diagramm zu halten. Man muss dem Diagramm einen Verweis auf dieses Element übergeben, also weist man ihm eine ID zu, mit der man einen Verweis \textit{document.getElementById()} abrufen kann. Alles in diesem Element wird beim Zeichnen durch das Diagramm ersetzt. 
+
+Jedes Diagramm unterstützt eine \textit{draw()} \textit{Methode} \cite{drawCharts}, die zwei Werte akzeptiert: ein \textit{DataTable} (oder ein \textit{DataView}) Objekt, das seine Daten enthält, und ein optionales Diagrammoptionsobjekt. Das Optionsobjekt ist nicht erforderlich, und man kann es ignorieren oder \textit{Null} übergeben, um die Standardoptionen des Diagramms zu verwenden.
+
+Nach dem Aufruf \textit{draw()} wird das Diagramm auf der Seite gezeichnet. Man soll die \textit{draw()} Methode jedes Mal aufrufen, wenn man die Daten oder die Optionen ändern und das Diagramm aktualisieren möchte. Die \textit{draw()} Methode ist asynchron, d.h. sie wird sofort zurückgegeben während die zurückgegebene Instanz jedoch möglicherweise nicht sofort verfügbar ist.
+
+%Die \textit{draw()} Methode ist asynchron, dh sie wird sofort zurückgegeben während die zurückgegebene Instanz jedoch möglicherweise nicht sofort verfügbar ist. In vielen Fällen ist das in Ordnung, das Diagramm wird schließlich gezeichnet. Wenn man jedoch Werte in einem Diagramm nach dem Aufruf festlegen oder abrufen möchten \textit{draw()}, muss man darauf warten, dass das Ereignis  ``ready'' ausgelöst wird, wodurch angezeigt wird, dass es ausgefüllt ist. 
+
+Außerdem gibt es noch viele Einstellungsmöglichkeiten wie Farbe oder Größe der Diagramme sowie die Methoden und Events..., die unter der Seite \url{https://developers.google.com/chart/interactive/docs/gallery/orgchart} nachgeschlagen werden.  
+
+

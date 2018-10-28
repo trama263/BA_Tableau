@@ -1,0 +1,59 @@
+\section{Semantik der Aussagenlogik}
+
+Aussagen sind wahr oder falsch. Von einer aussagenlogischen Formel kann man das erst dann sagen, wenn man (zumindest) den in ihr vorkommenden Variablen einen Wahrheitswert zugeordnet hat.
+
+\begin{defi} Belegung atomarer Aussagen\cite{Schaefer} \end{defi}Sei  $A$ eine aussagenlogische Formel und sei $\mathcal{P}_A$ die Menge der in der Formel $A$ vorkommenden atomaren Aussagen. Eine Belegung $v$ (von ``valuation'') für $A$ ist eine Abbildung $v$ : $\mathcal{P}_A \rightarrow \{ wahr,falsch \}$, die jeder atomaren Aussage der Formel $A$ einen Wahrheitswert zuweist.
+
+
+\begin{defi}Wahrheitswert einer Formel\end{defi} Sei  $A$ eine aussagenlogische Formel und sei $v$ eine Belegung der in $\mathcal{A}$ vorkommenden atomaren Aussagen.  $v_{\mathcal{P}_A} (A)$  , der Wahrheitswert von $A$ unter  $\mathcal{P}_A$ ist induktiv auf der Struktur von $A$ definiert, wie in Abb. \ref{Abb. 2.3} gezeigt.
+\begin{figure}[ !h] \centering		
+\begin{align*}
+v_\mathcal{P}(A)  &= \mathcal{P}_A (A)\hspace{0.7cm} \mbox{ falls A eine atomare Formel ist}\\
+v_\mathcal{P}(\neg A)  &= \left\{ \begin{array}{lll}
+wahr & \mbox{falls}& v_\mathcal{P}(A) = falsch \\ 
+falsch & \mbox{sonst} & \\
+\end{array}\right.\\
+v_\mathcal{P}(A_1 \vee A_2)  &= \left\{ \begin{array}{lll}
+wahr & \mbox{falls}& v_\mathcal{P}(A_1) = wahr \ und \ v_\mathcal{P}(A_2) = wahr \\ 
+falsch & \mbox{sonst} & \\
+\end{array}\right.\\
+v_\mathcal{P}(A_1 \wedge A_2)  &= \left\{ \begin{array}{lll}
+falsch & \mbox{falls}& v_\mathcal{P}(A_1) = falsch \ und \ v_\mathcal{P}(A_2) = falsch \\ 
+wahr & \mbox{sonst} & \\
+\end{array}\right.\\
+v_\mathcal{P}(A_1 \rightarrow A_2)  &= \left\{ \begin{array}{lll}
+falsch & \mbox{falls}& v_\mathcal{P}(A_1) = wahr \ und \ v_\mathcal{P}(A_2) = falsch \\ 
+wahr & \mbox{sonst} & \\
+\end{array}\right.\\
+v_\mathcal{P}(A_1 \uparrow A_2)  &= \left\{ \begin{array}{lll}
+falsch & \mbox{falls}& v_\mathcal{P}(A_1) = wahr \ und \ v_\mathcal{P}(A_2) = wahr \\ 
+wahr & \mbox{sonst} & \\
+\end{array}\right.\\
+v_\mathcal{P}(A_1 \downarrow A_2)  &= \left\{ \begin{array}{lll}
+wahr & \mbox{falls}& v_\mathcal{P}(A_1) = falsch \ und \ v_\mathcal{P}(A_2) = falsch \\ 
+falsch & \mbox{sonst} & \\
+\end{array}\right.\\
+v_\mathcal{P}(A_1 \leftrightarrow A_2)  &= \left\{ \begin{array}{lll}
+wahr & \mbox{falls}& v_\mathcal{P}(A_1) = v_\mathcal{P}(A_2) \\ 
+falsch & \mbox{sonst} & \\
+\end{array}\right.\\
+v_\mathcal{P}(A_1 \oplus A_2)  &= \left\{ \begin{array}{lll}
+wahr & \mbox{falls}& v_\mathcal{P}(A_1) \neq v_\mathcal{P}(A_2) \\ 
+falsch & \mbox{sonst} & \\
+\end{array}\right.\\
+\end{align*}
+ \caption[Wahrheitswerte von Formeln]{Wahrheitswerte von Formeln}	 
+ \label{Abb. 2.3}
+\end{figure}
+
+In Abb. \ref{Abb. 2.3} wird $v_{\mathcal{P}_A} (A)$ mit $v_\mathcal{P}(A)$ abgekürzt. Die Abkürzung $\mathcal{P}$ für $\mathcal{P}_A$ wird immer dann verwendet, wenn die Formel aus dem Kontext klar ist.
+\section{Erfüllbarkeit und Tautologien}
+Grundsätzlich kann man Formeln danach klassifizieren, ob überhaupt passende Belegungen existieren, die sie wahr bzw. falsch machen.
+\begin{defi} Erfüllbarkeit, Gültigkeit , Tautologie \label{Definition 2.38} \end{defi}  Eine Formel $A$ heißt
+\begin{itemize}																					
+\item erfüllbar, falls sie unter wenigstens einer Belegung wahr ist;
+\item gültig, allgemeingültig oder Tautologie, falls sie unter allen Belegung wahr ist;
+\item unerfüllbar, falls es keine passende Belegung gibt, sodass diese wahr ist.
+\end{itemize}
+\begin{bem} \label{Satz 2.39} \end{bem}Eine Formel $A$ ist gültig genau dann wenn $\neg A$ unerfüllbar ist.
+

@@ -1,0 +1,53 @@
+\section{FormulaGrammar.g4}
+Aus dem Unterabschnitt \ref{subsec:FormelGrammatik} kann eine Formel als Strings, die über eine kontextfreie formale Grammatik generiert wird, definiert werden. Das Alphabet der Formel, das in der Definition \ref{Definition 2.1} definiert wird, wird wie folgt implementiert.
+\begin{itemize}
+\item Die Aussagenvariable kann beliebige große und kleine Buchstaben enthalten.
+
+\begin{lstlisting}[language=Grammar, basicstyle=\scriptsize]
+ATOM: [a-zA-Z];
+\end{lstlisting}
+\item Basierend auf dem Unterabschnitt \ref{subsec:Notation} werden die folgenden Notationen der Junktoren verwendet:
+
+\begin{lstlisting}[language=Grammar, basicstyle=\scriptsize]
+NEG : '!';    // negation
+IMP : '=>';   // implication		
+EQU: '<=>';   // equivalence
+XOR: '^';     // exclusive or
+AND : '&';    // conjunction
+NAND : '!&';  // nand
+OR : '|';     // disjunction
+NOR : '!|';   // nor
+\end{lstlisting}
+
+\item Die Konstanten kann 0, 1 , true oder false (in ``case-insensitive'') sein.
+
+\begin{lstlisting}[language=Grammar, basicstyle=\scriptsize]
+TRUE: (T R U E| '1'); 
+FALSE: (F A L S E| '0');
+fragment T : [tT]; // match either an 't' or 'T'
+fragment R : [rR];
+fragment U : [uU];
+fragment E : [eE];
+...
+\end{lstlisting}
+\end{itemize}
+
+ANTLR löst Mehrdeutigkeiten zugunsten der zuerst genannten Alternative. Aus den Bindungsregeln in dem Unterabschnitt \ref{subsec:Bindungskonventionen} hat 
+die Regel \textit{expr} z.B die Konjuktionsalternative vor der Disjunktionsalternative. Die Produktionen von der Grammatik der aussagenlogischen Formeln wird wie folgt implementiert: 
+
+\begin{lstlisting}[language=Grammar, basicstyle=\scriptsize]
+stat :	expr EOF;
+expr :	NEG expr                     # Negation
+		| expr op=('&'|'!&') expr        # AndNand
+		| expr op=('|'|'!|') expr        # OrNor		
+		| expr '=>' expr                 # Implication	
+		| expr op=('<=>'|'^') expr       # EquXor							
+		| ATOM                           # Atom
+		| TRUE                           # True
+		| FALSE                          # False
+		| '(' expr ')'                   # Parens
+		;
+\end{lstlisting}
+
+
+Dazu sind ``\# Negation'', ``\# AndNand'' usw. die Bezeichnungen von der Alternativen der Regel \textit{expr}. Diese Bezeichnungen erscheinen am rechten Rand von Alternativen und beginnen mit dem \# -Zeichen.

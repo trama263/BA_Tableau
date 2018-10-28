@@ -1,0 +1,87 @@
+\chapter{Implementierung}\label{sec:Implementierung}
+In diesem Kapitel geht es um die Implementierung der Webanwendung. 
+
+Wie im Abschnitt \ref {sec:Antlr4} erwähnt, kann man das Skript \textit {require.js} verwenden um das Importieren von dutzenden Dateien manuell zu vermeiden, wie im folgenden Beispiel gezeigt:
+
+\begin{lstlisting}[language=HTML,basicstyle=\scriptsize]
+    <script src="src/Enums.js"></script>
+    <script src="src/Model/Formula.js"></script>
+    <script src="src/Model/TableauNode.js"></script>   
+    <script src="src/Model/TableauForPropositionalLogic.js"></script>
+    ...
+</body>
+</html>
+\end{lstlisting}
+Diese Dateien müssen in der folgenden Reihenfolge geladen werden:
+\begin{itemize}
+\item	\textit{Enums.js} muss zuerst geladen werden, da alle anderen Dateien es benötigen.
+\item	\textit{Formula.js} wird von \textit{TableauNode.js} verwendet und muss daher zuerst geladen werden.
+\item	In ähnlicher Weise wird \textit{TableauNode.js} von \textit{TableauForPropositionalLogic.js} verwendet und muss daher als nächstes geladen werden.
+\end{itemize}
+Man kann leicht erkennen, dass das Laden von Dateien in der richtigen Reihenfolge wichtig ist, da sie voneinander abhängig sind. Dies mag zunächst kein Problem sein, aber wenn der Code kompliziert wird, wachsen die Dateien und es wird immer schwieriger, die \textit{script}-Tags zu verwalten.
+
+%Wenn man die JavaScript Dateien manuell wie oben importiert, gibt es viele Nachteile wie \footnote{\url{https://frederic-hemberger.de/talks/requirejs/\# /3}}:
+%\begin{itemize}
+%\item	Websites werden immer komplexer.
+%\item	Komplexer Code ist schlechter zu warten.
+%\item	Komplexer Code ist schlechter zu testen.
+%\item	Verwaltung der Abhängigkeiten von Hand ist fehleranfällig
+%\end{itemize}
+
+Daher wird \textit{require.js} im Rahmen dieser Arbeit nicht nur für die ANTLR-Bibliothek sondern für alle andere JavaScript-Dateien verwendet. \textit{require.js} implementiert die Funktion \textit{require()} von \textit{Node.js} im Browser. \textit{require()} wird zum Laden von Dateien verwendet. Für normale JavaScript-Dateien bedeutet dies, dass sie ausgeführt werden, wenn sie zum ersten Mal geladen werden, und das war es. Der Code wird in seiner eigenen Schließung ausgeführt, so dass er den Rest des Codes nicht stört (z.B. identische Variablennamen sind kein Problem). Die einzige Möglichkeit, etwas an die Außenwelt zurückzugeben, besteht darin, ein spezielles Objekt \textit{exports}, das aufgerufen wird, zu ändern , wobei dies der Rückgabewert des\textit{ require()} Aufrufs ist. Eine JavaScript-Datei, die \textit{exports} eine Funktion oder Variable an die Außenwelt zurückgibt, wird als ``Modul'' bezeichnet \cite{pixels}. Man kann \textit{require()} in seinem Browser wie folgt verwenden:
+
+\begin{lstlisting}[language=HTML,basicstyle=\scriptsize]
+<html>
+<head>
+	<script type="text/javascript" src="lib/require.js"></script>
+</head>
+<body>
+	<script type="text/javascript">
+		var Formula = require("src/Model/Formula.js").Formula;
+		var formula =  new Formula("1", null, null, FormulaTypeEnum.TRUE);
+		var type = formula.getFormulaType();
+	</script>
+</body>
+</html>
+\end{lstlisting}
+Der Code in \textit{Formula.js} könnte so aussehen:
+\begin{lstlisting}[language=JavaScript,basicstyle=\scriptsize]
+function Formula(label, left, right, formulaType) {
+    this.right = right;
+    this.left = left;
+    this.label = label;
+    this.formulaType = formulaType;
+}
+Formula.prototype.getFormulaType = function () {
+    return this.formulaType;
+};
+
+exports.Formula = Formula;
+\end{lstlisting}
+
+Die einzige Datei, die man normalerweise laden muss, ist \textit{require.js}, die definiert \textit{window.require()}. Danach kann man das Modul \textit{Formula.js} wie in \textit{Node.js} laden. Die Variable \textit{Formula} enthält alle vom Modul exportierten Daten, so dass man sich diese als ``Namespace'' vorstellen kann. Das Aufrufen einer exportierten Funktion \textit{getFormulaType()} in diesem Fall, funktioniert genauso wie das Aufrufen der Methode eines Objekts. Von hier werden alle exportierten Funktionen als ``Methoden'' bezeichnet.
+
+Im Rahmen dieser Arbeit werden alle sogenannten ``Namespaces'' im Skript \textit{Global.js} definiert. Weiterhin enthält das Skript auch alle globalen Variablen der Anwendung.
+
+\begin{itemize}
+\item \textit{view}: globale Instanz der Klasse \textit{TableauView}
+\item \textit{InputError}: Boolean Variable, ist ``true'' wenn es eine Antlr-Fehlermeldung gibt.
+\item \textit{ErrorMessage}: Ein Array um die Antlr-Fehlermeldungen zu speichern.
+\item \textit{TableauChartData}: ``Google Charts DataTable'' um das Tableau zu visualisieren.
+\item \textit{ArrOfTableauNodesByStepByStep}: Ein Array speichert die Tableau-Knoten für den Tableau-Chart in einem Schritt der ``Schritt für Schritt Lösung'' (wird in der Methode drawTableauChartStepByStep() verwendet).
+\item \textit{ArrOfAllTableauNodes}: Ein Array speichert die übrige Tableau-Knoten, die noch nicht für den Tableau-Chart der ``Schritt für Schritt Lösung'' benutzt werden (wird in der Methode drawTableauChartStepByStep() verwendet). 
+\item \textit{TableauStepByStepData}: ``Google Charts DataTable'' um das Tableau für die ``Schritt für Schritt Lösung'' zu visualisieren.
+\item \textit{stepNr}: Ordnungszahl des aktuellen Schrittes (wird für ``Schritt für Schritt Lösung'' verwendet).
+\item \textit{chartNr}: Ordnungszahl des aktuellen Organigramm (wird für ``Schritt für Schritt Lösung'' verwendet).
+\item \textit{nexStepNr}: Ordnungszahl des nächsten Schrittes (wird für ``Schritt für Schritt Lösung'' verwendet).
+\item \textit{isTautology}:  Ergebnis der Tautologie-Prüfung. Die Variable wird in der Enumeration \textit{TautologyOrSatisfiableEnum} definiert (default: \textit{TautologyOrSatisfiableEnum.NOTTESTED}, wenn die Tautologie nicht geprüft wird).
+\item \textit{isSatifiable}:   Ergebnis der	Erfüllbarkeit-Prüfung. Die Variable wird in der Enumeration \textit{TautologyOrSatisfiableEnum} definiert (default: \textit{TautologyOrSatisfiableEnum.NOTTESTED}, wenn die Erfüllbarkeit nicht geprüft wird).
+\begin{lstlisting}[language=JavaScript, caption= TautologyOrSatisfiableEnum,basicstyle=\scriptsize]
+const TautologyOrSatisfiableEnum = Object.freeze({
+    TRUE: "TRUE",
+    FALSE: "FALSE",
+    NOTTESTED: "NOTTESTED"
+});
+exports.TautologyOrSatisfiableEnum = TautologyOrSatisfiableEnum;
+\end{lstlisting}
+\end{itemize}
