@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/Tableau/src/Model/TableauForPropositionalLogic.js" description="* The constructor of tableau-algorithm" line="12" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ae0895b-cb64-49cb-8893-93751d7c0f60" name="Default" comment="" />
+    <list default="true" id="8ae0895b-cb64-49cb-8893-93751d7c0f60" name="Default" comment="Add Project">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -562,7 +564,7 @@
       <workItem from="1539099254137" duration="1184000" />
       <workItem from="1539151817303" duration="3273000" />
       <workItem from="1540762171162" duration="524000" />
-      <workItem from="1540762824574" duration="555000" />
+      <workItem from="1540762824574" duration="984000" />
     </task>
     <task id="LOCAL-00005" summary="Jasmin-Beispiele löschen">
       <created>1526309620379</created>
@@ -911,7 +913,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="790503000" />
+    <option name="totallyTimeSpent" value="790932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
